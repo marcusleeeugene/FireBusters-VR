@@ -1,0 +1,1078 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/marcusleeeugene/Desktop/FireBusters-VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61516
+Successfully changed project path to: /Users/marcusleeeugene/Desktop/FireBusters-VR
+/Users/marcusleeeugene/Desktop/FireBusters-VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/marcusleeeugene/Desktop/FireBusters-VR/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-12 15:18:21.742 Unity[80757:2328268] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-03-12 15:18:21.742 Unity[80757:2328268] Metal devices available: 2
+2022-03-12 15:18:21.743 Unity[80757:2328268] 0: AMD Radeon Pro 560X (high power)
+2022-03-12 15:18:21.743 Unity[80757:2328268] 1: Intel(R) UHD Graphics 630 (low power)
+2022-03-12 15:18:21.743 Unity[80757:2328268] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56757
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000639 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 46.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 2.483498 ms (FindLiveObjects: 0.200075 ms CreateObjectMapping: 0.064766 ms MarkObjects: 2.092569 ms  DeleteObjects: 0.124694 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Level05.unity
+  artifactKey: Guid(4f00458d9594042f7acd40fba630b960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level05.unity using Guid(4f00458d9594042f7acd40fba630b960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c16c2c651b2776df82bc4f42876327') in 0.014576 seconds
+  Import took 0.018950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.549625 seconds.
+  path: Assets/SteamVR/SteamVR.asmdef
+  artifactKey: Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/SteamVR.asmdef using Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31064ca7f0859e8587f293577d5cba97') in 1.297443 seconds
+  Import took 1.300998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.178781 seconds.
+  path: Assets/SteamVR/Prefabs
+  artifactKey: Guid(3e2543c4beea3eb4e9ea1e02a4bc2df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs using Guid(3e2543c4beea3eb4e9ea1e02a4bc2df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2215cd955987d740c6c4aa90b1101bd0') in 0.001100 seconds
+  Import took 0.004656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069617 seconds.
+  path: Assets/SteamVR/Prefabs/[CameraRig].prefab
+  artifactKey: Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[CameraRig].prefab using Guid(4d293c8e162f3874b982baadd71153d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a884c961afcb5bd4d296c5955c1c42') in 0.429760 seconds
+  Import took 0.433807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab
+  artifactKey: Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab using Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01564acef01d72b3b9767f6b00ea2f4d') in 0.639426 seconds
+  Import took 0.642611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab
+  artifactKey: Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_left.prefab using Guid(85d52d9937d11064295294895b28d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb28a67f32e53df40c20a632959c5e2c') in 0.393601 seconds
+  Import took 0.397936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab
+  artifactKey: Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_left.prefab using Guid(78cacad1b5fb93349a980d2189b52b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8f59b48ef458a5de7c7f76200f584c') in 0.414941 seconds
+  Import took 0.418357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0390ddcbe847162db50a27ba75be9d35') in 0.023988 seconds
+  Import took 0.027663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
+  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5af6fc49adb5f36ffd36f1342e3bc82') in 0.022732 seconds
+  Import took 0.027766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SteamVR/Prefabs/[SteamVR].prefab
+  artifactKey: Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[SteamVR].prefab using Guid(4f35fa249b5008c44ac2998be6f82d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acee6f60fea47480c59dfac2917d200') in 0.003503 seconds
+  Import took 0.006822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab
+  artifactKey: Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab using Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a438e0603ca99140cf071e551f6051a3') in 0.025079 seconds
+  Import took 0.029155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab
+  artifactKey: Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_left_model_slim.prefab using Guid(638779290bce1af49b356f33dcc6fccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3826da77a58c51a56a3fbdae23ba2690') in 0.021380 seconds
+  Import took 0.025026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_left.prefab
+  artifactKey: Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_left.prefab using Guid(057574477c20401448aba7c848873712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b651de6c9aecf8d3da45c2c779a1c3') in 0.023461 seconds
+  Import took 0.026744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/SteamVR/Prefabs/controller.prefab
+  artifactKey: Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/controller.prefab using Guid(e789c2cc0c98a4c4198a4033fb8ccf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c052ee50942465c612bfdb9f8e9e09d') in 0.002942 seconds
+  Import took 0.006071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/SteamVR/Prefabs/[Status].prefab
+  artifactKey: Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/[Status].prefab using Guid(255333d57084e4e46b3d948279746a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f9c4260490208eb5afdaee76ec385c') in 0.015540 seconds
+  Import took 0.018242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 2.152454 ms (FindLiveObjects: 0.252857 ms CreateObjectMapping: 0.065612 ms MarkObjects: 1.715391 ms  DeleteObjects: 0.117047 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2697.051240 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Lamps
+  artifactKey: Guid(2c1ddfbb7b822da4db8192933aa456a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Lamps using Guid(2c1ddfbb7b822da4db8192933aa456a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9bf3ea9c210e361dc8490b42711362') in 0.003956 seconds
+  Import took 0.006967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314338 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Lamps/TableLamp
+  artifactKey: Guid(bee0b46f20f2d5e489253c8f635b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Lamps/TableLamp using Guid(bee0b46f20f2d5e489253c8f635b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6610696ade6019e1f406938a8383cab1') in 0.001154 seconds
+  Import took 0.003955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061665 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Lamps/TableLamp/SingleLamp_Type12.prefab
+  artifactKey: Guid(7c26144cd2b34a446be62fbbe9216cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Lamps/TableLamp/SingleLamp_Type12.prefab using Guid(7c26144cd2b34a446be62fbbe9216cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491fc90eef8f3b747002ee7d3b083a8c') in 0.725407 seconds
+  Import took 0.735079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.983368 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Bedrooms/BedDesks/Bed Desk Type 2.prefab
+  artifactKey: Guid(65d0f065a3e2ad547b9cc3844a9937d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Bedrooms/BedDesks/Bed Desk Type 2.prefab using Guid(65d0f065a3e2ad547b9cc3844a9937d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d39e24af027ed884775cbdd06c5450') in 0.139019 seconds
+  Import took 0.144974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679427 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Bedrooms/BedPillows/Bed Pillow Round Long.prefab
+  artifactKey: Guid(69067b22d2d1ca24fa75bb54836c13cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Bedrooms/BedPillows/Bed Pillow Round Long.prefab using Guid(69067b22d2d1ca24fa75bb54836c13cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1936728ad4dacb1d465fcf3a3b7d6d57') in 0.055395 seconds
+  Import took 0.058789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Bedrooms/BedPillows/Bed Pillow Square Small.prefab
+  artifactKey: Guid(061426d728645854fbccd8aa0920a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Bedrooms/BedPillows/Bed Pillow Square Small.prefab using Guid(061426d728645854fbccd8aa0920a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d7a6d33d3fef047e1f523fc046e00') in 0.062362 seconds
+  Import took 0.065602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434184 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Bedrooms/DressingTables/DressingTable Type5.prefab
+  artifactKey: Guid(5782841bb7f4b7541a289e9ee9a6ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Bedrooms/DressingTables/DressingTable Type5.prefab using Guid(5782841bb7f4b7541a289e9ee9a6ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ff7c2d269de4e46a405668547f83f6') in 0.289095 seconds
+  Import took 0.298174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.609808 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Bedrooms/LongBeds/Long Bed Type 1.prefab
+  artifactKey: Guid(8440a040fa5dbaa4cbca2cf52adeb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Bedrooms/LongBeds/Long Bed Type 1.prefab using Guid(8440a040fa5dbaa4cbca2cf52adeb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da225686bb6a16611d0d5bb657ab8f47') in 0.136953 seconds
+  Import took 0.141839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.076497 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/Rugs
+  artifactKey: Guid(1da7404f67fcf5b4d974e15b7a55f4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/Rugs using Guid(1da7404f67fcf5b4d974e15b7a55f4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecf81b75f0be3e31a1e01174f5cae08') in 0.001071 seconds
+  Import took 0.003751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073767 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/Rugs/Square Rug.prefab
+  artifactKey: Guid(17664ce2f0aa4a9418a4ac5ef4cc73e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/Rugs/Square Rug.prefab using Guid(17664ce2f0aa4a9418a4ac5ef4cc73e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f895188ca27a11e236954cb329387a3d') in 0.034302 seconds
+  Import took 0.037348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.123112 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Fans/Fan_3.prefab
+  artifactKey: Guid(ef94d4274068ef047aaa846843c42d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Fans/Fan_3.prefab using Guid(ef94d4274068ef047aaa846843c42d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f062e56684da2eff7624c84297bad03') in 0.068934 seconds
+  Import took 0.073036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.787714 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/Flowers/Flower Type2.prefab
+  artifactKey: Guid(4de20dfcad978c6419dc201c6eb150e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/Flowers/Flower Type2.prefab using Guid(4de20dfcad978c6419dc201c6eb150e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31259cdf4253e959cad76a17c1d22a6b') in 0.497334 seconds
+  Import took 0.500545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.283104 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1
+  artifactKey: Guid(b16c6357e73a3c043831b55da1771d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1 using Guid(b16c6357e73a3c043831b55da1771d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990bcdd0516c0b1757b3089d6bbcd935') in 0.001249 seconds
+  Import took 0.004150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065048 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1/FlowerVase Set1 Type1.prefab
+  artifactKey: Guid(f910856b88b298243a4a01cd89793478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1/FlowerVase Set1 Type1.prefab using Guid(f910856b88b298243a4a01cd89793478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff812b22bee800786aa33a1ef59a1a4') in 0.120318 seconds
+  Import took 0.124968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1/FlowerVase Set1 Type2.prefab
+  artifactKey: Guid(94c511b95e1099048a2d7e3e166f5a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Decoration/FlowerVase/Set1/FlowerVase Set1 Type2.prefab using Guid(94c511b95e1099048a2d7e3e166f5a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee12135924ed1c8e4848d92392178a2') in 0.099811 seconds
+  Import took 0.103716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.000749 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Clocks/TableClocks
+  artifactKey: Guid(fd3d7fc21403f7447bc15a1bb000918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Clocks/TableClocks using Guid(fd3d7fc21403f7447bc15a1bb000918e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b267ddc22de4831e65379ef295bbc803') in 0.001145 seconds
+  Import took 0.004111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068061 seconds.
+  path: Assets/Customizable_Furnture/Prefabs/Clocks/TableClocks/TableClock Type3.prefab
+  artifactKey: Guid(574ea592a0ebb814c8e7dad54ba216ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/Prefabs/Clocks/TableClocks/TableClock Type3.prefab using Guid(574ea592a0ebb814c8e7dad54ba216ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8412486a7500ed7f91b36cf35950e2') in 0.180109 seconds
+  Import took 0.187581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 617.070943 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_1.prefab
+  artifactKey: Guid(6aefd9b8d8cb28f4f87b54d78bf0fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_1.prefab using Guid(6aefd9b8d8cb28f4f87b54d78bf0fca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a73759d3ed8bcbe3c0ab7db4bd70c12') in 0.107606 seconds
+  Import took 0.111081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_1.prefab
+  artifactKey: Guid(4df135dcff5ef7b488faeec987a0fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_1.prefab using Guid(4df135dcff5ef7b488faeec987a0fe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ccc44e8ec6ae23897c0844756d709c') in 0.013526 seconds
+  Import took 0.016403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/table_1.prefab
+  artifactKey: Guid(da90dd5c59fc7b74797111fdae04254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/table_1.prefab using Guid(da90dd5c59fc7b74797111fdae04254f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1460f8db419987e253536cb86b217d') in 0.013085 seconds
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_2.prefab
+  artifactKey: Guid(ef18cf68e5c7efc49b863727df55dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_2.prefab using Guid(ef18cf68e5c7efc49b863727df55dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fcecc444663b3ba39bded09af91bf1') in 0.034473 seconds
+  Import took 0.037921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_1.prefab
+  artifactKey: Guid(dce57d1e50d1fef489ee2d0fe5716701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_1.prefab using Guid(dce57d1e50d1fef489ee2d0fe5716701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170978f810638c24c2d8707023a55e12') in 0.011487 seconds
+  Import took 0.015551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/table_2.prefab
+  artifactKey: Guid(89131f46d6bfc864699138153a2cc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/table_2.prefab using Guid(89131f46d6bfc864699138153a2cc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323e0edb24687c0f89260a48707eeefd') in 0.009066 seconds
+  Import took 0.012623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab
+  artifactKey: Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab using Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c73a0d6235eb747e9d507ca5ecaec') in 0.010036 seconds
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_3.prefab
+  artifactKey: Guid(b4be6cb63b98d134bacd367e6b052bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_3.prefab using Guid(b4be6cb63b98d134bacd367e6b052bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e2b0e56352534c920b71ab05a4531') in 0.009790 seconds
+  Import took 0.012705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab
+  artifactKey: Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab using Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d77fa9205b476be9f494c37485b51b1') in 0.009428 seconds
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab
+  artifactKey: Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab using Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d8b01df334ecc7d56cfcaf359e8d8') in 0.008217 seconds
+  Import took 0.011597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Tables/coffee_table_4.prefab
+  artifactKey: Guid(395f9d952fa0b6c489ca4a50a9f95953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Tables/coffee_table_4.prefab using Guid(395f9d952fa0b6c489ca4a50a9f95953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e59ec86b7e94ddb6bc955a85501fb8') in 0.011041 seconds
+  Import took 0.013615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.251526 seconds.
+  path: Assets/BigFurniturePack/Textures/cloth_1.jpg
+  artifactKey: Guid(db4265b11df6af1438db306cd16c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/cloth_1.jpg using Guid(db4265b11df6af1438db306cd16c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ecc5a926f11e83caf8d5b9e3d289f8') in 1.208743 seconds
+  Import took 1.211551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BigFurniturePack/Textures/floor.jpg
+  artifactKey: Guid(5b23a0b3534da9b44975ad134ad8033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/floor.jpg using Guid(5b23a0b3534da9b44975ad134ad8033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634a0154f35b300e0e7a59ab15ff609e') in 0.007955 seconds
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/BigFurniturePack/Textures/cloth_5.jpg
+  artifactKey: Guid(b8daff8b7c3733a4c89e2dc3cbd49222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/cloth_5.jpg using Guid(b8daff8b7c3733a4c89e2dc3cbd49222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328fae2f52d71b3f4286361b6ceda86e') in 0.010466 seconds
+  Import took 0.013681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/BigFurniturePack/Textures/wood_2.jpg
+  artifactKey: Guid(2d3f16073f817e74ca26282b96b3593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/wood_2.jpg using Guid(2d3f16073f817e74ca26282b96b3593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e5a39e55264652c68c752654bdb241') in 0.029948 seconds
+  Import took 0.033771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/BigFurniturePack/Textures/floor_nm.jpg
+  artifactKey: Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/floor_nm.jpg using Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548ab9fc30e8055e41bc1cf57c4407ee') in 0.018040 seconds
+  Import took 0.026887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/BigFurniturePack/Textures/cloth_3.jpg
+  artifactKey: Guid(4acc9fdd66048cb4e96d08ca021d5f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/cloth_3.jpg using Guid(4acc9fdd66048cb4e96d08ca021d5f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dd55d97045f4b410521c74d3d3ee17') in 0.006802 seconds
+  Import took 0.009739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/BigFurniturePack/Textures/wood_3.JPG
+  artifactKey: Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/wood_3.JPG using Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d2cc05964b08ceadb5c00412d06776') in 1.166045 seconds
+  Import took 1.168852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_1.prefab
+  artifactKey: Guid(caa8fd4c881e43744b8164d904df19c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_1.prefab using Guid(caa8fd4c881e43744b8164d904df19c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5234696a6452813cdbe63832cdaa1c6') in 0.008858 seconds
+  Import took 0.011620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_5.prefab
+  artifactKey: Guid(77cc829851270f641a67e7e2132e861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_5.prefab using Guid(77cc829851270f641a67e7e2132e861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a04fdd2235ee4f8e6ee58e6a3d6e4ad') in 0.010495 seconds
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_2.prefab
+  artifactKey: Guid(c2989b164d4945744a6d12f15bc39c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_2.prefab using Guid(c2989b164d4945744a6d12f15bc39c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d54ff985b698cf79610a03a44bfea01') in 0.028775 seconds
+  Import took 0.032721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_3.prefab
+  artifactKey: Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_3.prefab using Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e2a31647c53b47fa0a7d5c1dd362af') in 0.027043 seconds
+  Import took 0.033050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/vase_4.prefab
+  artifactKey: Guid(1535cfd3cbc7f7c48b4304ca1e26d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/vase_4.prefab using Guid(1535cfd3cbc7f7c48b4304ca1e26d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deffdae66c6778b8532077a45bf6ca84') in 0.011624 seconds
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Vases/plate.prefab
+  artifactKey: Guid(da54b27642860c745b145c776f596680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Vases/plate.prefab using Guid(da54b27642860c745b145c776f596680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c381a0ccfd6c5d0dd95efbb085ded6c') in 0.009956 seconds
+  Import took 0.013656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BigFurniturePack/Textures/cloth_4.jpg
+  artifactKey: Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/cloth_4.jpg using Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae2eadec5512899144c3d1cba54a78b') in 0.006230 seconds
+  Import took 0.009260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BigFurniturePack/Textures/cloth_2.jpg
+  artifactKey: Guid(06d346647450a0d4688aa76e20b03d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/cloth_2.jpg using Guid(06d346647450a0d4688aa76e20b03d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55133b663d30b1f01bf6b249f27f535') in 0.007509 seconds
+  Import took 0.011615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/BigFurniturePack/Textures/wood_1.jpg
+  artifactKey: Guid(e985334e4a9d3ab448b77393b5c06265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Textures/wood_1.jpg using Guid(e985334e4a9d3ab448b77393b5c06265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be901bc50e854f31b229d30af4feb9e5') in 0.015756 seconds
+  Import took 0.020534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588316 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_1.prefab
+  artifactKey: Guid(d2a377b97363a554a96a26b876de1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_1.prefab using Guid(d2a377b97363a554a96a26b876de1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dec67acd80a6aa0a090f9a8e0337e6') in 0.010016 seconds
+  Import took 0.012916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_3.prefab
+  artifactKey: Guid(272a1dd3343458d45888ea8668d6e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_3.prefab using Guid(272a1dd3343458d45888ea8668d6e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb2c9dda13cb5b9d2ced829e0478416') in 0.011194 seconds
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_1.prefab
+  artifactKey: Guid(01dfb375646cba84e9b92e2cedf7d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_1.prefab using Guid(01dfb375646cba84e9b92e2cedf7d149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc21decabedce717f6e6ddf9e8baf8b') in 0.010267 seconds
+  Import took 0.012945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_2.prefab
+  artifactKey: Guid(76f69c2044293fc40a066ff85ecb70df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_2.prefab using Guid(76f69c2044293fc40a066ff85ecb70df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a31c07df387283759d370866e25ccda') in 0.028632 seconds
+  Import took 0.034324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_4.prefab
+  artifactKey: Guid(d534d0198c237a043a8e671f0bf2859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_4.prefab using Guid(d534d0198c237a043a8e671f0bf2859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfd298530fdcf3d680e059e6e40bbee') in 0.012689 seconds
+  Import took 0.017749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/pouf.prefab
+  artifactKey: Guid(75c3709e2bf1e9843b30f0c81dbe6b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/pouf.prefab using Guid(75c3709e2bf1e9843b30f0c81dbe6b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f73db0bf2ae26855014158b7d902a34') in 0.008201 seconds
+  Import took 0.011641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/corner_sofa.prefab
+  artifactKey: Guid(3afc3ad1f4025944cb7622a67af41586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/corner_sofa.prefab using Guid(3afc3ad1f4025944cb7622a67af41586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076c82ad6a5af60065da774338f091fe') in 0.010122 seconds
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_4.prefab
+  artifactKey: Guid(8cef4c90a64b6564ca61184c68b8d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_4.prefab using Guid(8cef4c90a64b6564ca61184c68b8d442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d11150bba6f0ac5ab844f69375a942') in 0.019364 seconds
+  Import took 0.022953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_2.prefab
+  artifactKey: Guid(410463ba8bd9a484cb3ab355dc962d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/kitchen_chair_2.prefab using Guid(410463ba8bd9a484cb3ab355dc962d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08795008ee916ae44367e3a7fee71cb') in 0.012243 seconds
+  Import took 0.017130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_2.prefab
+  artifactKey: Guid(2de9ad0fa697ed54db49ee8dcbe9d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_2.prefab using Guid(2de9ad0fa697ed54db49ee8dcbe9d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f747bc4e4b57f10d73477923381a61c') in 0.011559 seconds
+  Import took 0.014781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_1.prefab
+  artifactKey: Guid(b75a9f5bde480c848a601653b942291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/sofa_1.prefab using Guid(b75a9f5bde480c848a601653b942291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5a86687970b07df711258d3de1a9df') in 0.009253 seconds
+  Import took 0.011932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_3.prefab
+  artifactKey: Guid(71384cbc628fa864eb38a3ce9020699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Sofas&Chairs/chair_3.prefab using Guid(71384cbc628fa864eb38a3ce9020699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabf2a76722db1268b46d5b36eb540d2') in 0.011101 seconds
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531331 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_1.prefab
+  artifactKey: Guid(8920164852daafb4ea1cbf5c4f29f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_1.prefab using Guid(8920164852daafb4ea1cbf5c4f29f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9ceabff293bf9a3fe3e8248e579770') in 0.008293 seconds
+  Import took 0.011501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_3.prefab
+  artifactKey: Guid(396d41ee955979149b21a20470890097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_3.prefab using Guid(396d41ee955979149b21a20470890097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2ec886671ec08944eaab6d019bd222') in 0.008387 seconds
+  Import took 0.011424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_2.prefab
+  artifactKey: Guid(5692ea7adcac2734186a38415b80ea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_2.prefab using Guid(5692ea7adcac2734186a38415b80ea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e890022c7b71f6f6cfac1f35a79bed') in 0.009357 seconds
+  Import took 0.012353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Mirrors/mirror_4.prefab
+  artifactKey: Guid(13756c1016e72ca44ae334c3465ca020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Mirrors/mirror_4.prefab using Guid(13756c1016e72ca44ae334c3465ca020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d613df8c521f1c630373aebaad0e9') in 0.010978 seconds
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.969419 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_1.prefab
+  artifactKey: Guid(bab2957dd377aea42995c59df2777846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_1.prefab using Guid(bab2957dd377aea42995c59df2777846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2b4ece1a45b925b2cdcaac4ac63bd8') in 0.009027 seconds
+  Import took 0.011925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner.prefab
+  artifactKey: Guid(42906078a1d49c5458d19c65a691f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner.prefab using Guid(42906078a1d49c5458d19c65a691f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4ccadfecfaa06f6891e6fe6c9de2df') in 0.010865 seconds
+  Import took 0.013996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4.prefab
+  artifactKey: Guid(69876b662dbfff945b3239cdac3b1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4.prefab using Guid(69876b662dbfff945b3239cdac3b1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f207b382d5882757f1058b784bd3b') in 0.013798 seconds
+  Import took 0.016650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner_INV.prefab
+  artifactKey: Guid(d6914444abecec94792cba630fe392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_corner_INV.prefab using Guid(d6914444abecec94792cba630fe392e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ddcf0bfb59ac0da8debf7f19090d6e') in 0.026730 seconds
+  Import took 0.030681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_3.prefab
+  artifactKey: Guid(66e6284526c4a2645a28827f82a71cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_3.prefab using Guid(66e6284526c4a2645a28827f82a71cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c838bc2773b8af454f0fca97ba137204') in 0.009734 seconds
+  Import took 0.013429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_2.prefab
+  artifactKey: Guid(da7880317cad2524a93cbb6056bbc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_2.prefab using Guid(da7880317cad2524a93cbb6056bbc922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb35b5ae7504083a304a3e5a781ada4') in 0.008191 seconds
+  Import took 0.010862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_3.prefab
+  artifactKey: Guid(bcf7f5659c394f04f947cb579e955ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/kitchen_shelf_3.prefab using Guid(bcf7f5659c394f04f947cb579e955ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30750e580fbdeabdfdc3a44748ae0bf9') in 0.015561 seconds
+  Import took 0.019914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_1.prefab
+  artifactKey: Guid(8bc0238f058e4164f9eb9123a975cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_1.prefab using Guid(8bc0238f058e4164f9eb9123a975cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00cd2e531f5017269d4444662c62fd6') in 0.010271 seconds
+  Import took 0.013940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4_INV.prefab
+  artifactKey: Guid(3ef68bc6de3dfab4daadb71aec4656bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_4_INV.prefab using Guid(3ef68bc6de3dfab4daadb71aec4656bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b087e78e627316a5a1fe88906433ed90') in 0.013143 seconds
+  Import took 0.016252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_2.prefab
+  artifactKey: Guid(7d0701320ee303d439feed9498b8d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen/modular_kitchen_table_2.prefab using Guid(7d0701320ee303d439feed9498b8d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7813f483f3ab90fef0892c2a3c74e68') in 0.009460 seconds
+  Import took 0.012057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.670631 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_1.prefab
+  artifactKey: Guid(2efb098e46ba3e44cae4f1ba84005732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_1.prefab using Guid(2efb098e46ba3e44cae4f1ba84005732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fc125b4611dbda8943650cc7b049c6') in 0.009623 seconds
+  Import took 0.012520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_2.prefab
+  artifactKey: Guid(33dd0111778766843be1b10fb0c038ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_2.prefab using Guid(33dd0111778766843be1b10fb0c038ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5071c13ef3b91cac697c40ab073c62fe') in 0.010997 seconds
+  Import took 0.013656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_3.prefab
+  artifactKey: Guid(df7f243bd429cd5408f1ad2978c21cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_3.prefab using Guid(df7f243bd429cd5408f1ad2978c21cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bfa648091f89a9d4055592fff385b1') in 0.011868 seconds
+  Import took 0.014778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_4.prefab
+  artifactKey: Guid(969e14f1112395b4b816c3c2606022bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_4.prefab using Guid(969e14f1112395b4b816c3c2606022bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b411248a7b846849e9e246169b40cae') in 0.028189 seconds
+  Import took 0.031507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_2.prefab
+  artifactKey: Guid(6cb4f5f750494f740a101f4c67f3f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/cabinet_2.prefab using Guid(6cb4f5f750494f740a101f4c67f3f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765bb89dccc486f69fd90e118092ea7d') in 0.011034 seconds
+  Import took 0.014983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_5.prefab
+  artifactKey: Guid(166c46565a20cbd48b376b1082b8376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_5.prefab using Guid(166c46565a20cbd48b376b1082b8376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7522f92cd62e0ea609cd0bdff78c94b2') in 0.008314 seconds
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_3.prefab
+  artifactKey: Guid(8fc847fdd92983f43b5183ed20e269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_3.prefab using Guid(8fc847fdd92983f43b5183ed20e269a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222f55c93fdb0e132eaf752a3e897008') in 0.014917 seconds
+  Import took 0.019119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_1.prefab
+  artifactKey: Guid(51df288df6d8c864aae27c801a5fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Cabinets&Racks/rack_1.prefab using Guid(51df288df6d8c864aae27c801a5fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205311f4e6dd4971a00a61784eb1e835') in 0.007886 seconds
+  Import took 0.010550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314467 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_1.prefab
+  artifactKey: Guid(a11d318bf37c01d489a19dc2dc33ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_1.prefab using Guid(a11d318bf37c01d489a19dc2dc33ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff361afd00e72408fa246ee1b93d3a0') in 0.010204 seconds
+  Import took 0.013436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_2.prefab
+  artifactKey: Guid(b4bf5e3a00974a94ea1549814fc16ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_2.prefab using Guid(b4bf5e3a00974a94ea1549814fc16ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b698f3cfcc046df193953402185439') in 0.012014 seconds
+  Import took 0.015259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Beds/bed_3.prefab
+  artifactKey: Guid(b3cad47395084a24ab9316d8de9eba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Beds/bed_3.prefab using Guid(b3cad47395084a24ab9316d8de9eba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368606b4810e0602630399c1eed7de2d') in 0.019619 seconds
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268657 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/brush.prefab
+  artifactKey: Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/brush.prefab using Guid(ae4a04ebba3b51f4bb3a2c49687f5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd74a6333a386f346c9b7ccb3278684c') in 0.055278 seconds
+  Import took 0.058241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/shower.prefab
+  artifactKey: Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/shower.prefab using Guid(f47c3332cc1e27e429e62f14a27f814d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b71094de102cdbc5ca6c6ff73e4209') in 0.179941 seconds
+  Import took 0.182474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab
+  artifactKey: Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/drying_with_towel.prefab using Guid(5c5d675157a1a8c4bb3a499600b460f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cdd88949b48869ad8b64b39d2f0711') in 0.008987 seconds
+  Import took 0.011564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/toilet.prefab
+  artifactKey: Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/toilet.prefab using Guid(2c528509df862ef449544165d18b2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe7fe10ce6be333e2d4e8edf7643c0') in 0.009466 seconds
+  Import took 0.012775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab
+  artifactKey: Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/washbasin.prefab using Guid(47af50246352ed14da4ade618d736175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f674d8af5d00d86d5c03cdb87fd19') in 0.017501 seconds
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Bathroom/flasket.prefab
+  artifactKey: Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Bathroom/flasket.prefab using Guid(5c9ab8dcefc861c4c962bbf326d5abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408df1dd544f55b90650399d6b1b68dc') in 0.022755 seconds
+  Import took 0.025707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.205136 seconds.
+  path: Assets/BigFurniturePack/Materials/cloth_1.mat
+  artifactKey: Guid(25124636f36dc4f249f291bf298c4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Materials/cloth_1.mat using Guid(25124636f36dc4f249f291bf298c4a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90271042eca179ff9e575878672e204a') in 0.241438 seconds
+  Import took 0.244701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/BigFurniturePack/Materials/wood_1.mat
+  artifactKey: Guid(693cfc11ab2a74f6bb87971e058ebdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Materials/wood_1.mat using Guid(693cfc11ab2a74f6bb87971e058ebdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077e0957766b76efcea83fdbfa593ab8') in 0.010894 seconds
+  Import took 0.013714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BigFurniturePack/Materials/wood_3.mat
+  artifactKey: Guid(2ec08dffb3cc04cb28641a398bba1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Materials/wood_3.mat using Guid(2ec08dffb3cc04cb28641a398bba1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f870df1c4c2055b47c07c18094acffc') in 0.012894 seconds
+  Import took 0.015674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BigFurniturePack/Materials/wood_2.mat
+  artifactKey: Guid(b5c22b048734342a8876cb72d81efdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Materials/wood_2.mat using Guid(b5c22b048734342a8876cb72d81efdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26519009f17ef84e304f65e44a656373') in 0.034678 seconds
+  Import took 0.037848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/BigFurniturePack/Materials/floor.mat
+  artifactKey: Guid(1c95cda8d263a4abbb499f00bf232306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Materials/floor.mat using Guid(1c95cda8d263a4abbb499f00bf232306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08aba86b32fa1be8c26f6eaea65f190') in 0.010943 seconds
+  Import took 0.014185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.536137 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d7bfe7cac68a146338bfd04e05178390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d7bfe7cac68a146338bfd04e05178390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5068d03e7f94f21df75e5806835af809') in 0.202641 seconds
+  Import took 0.205819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.892887 seconds.
+  path: Assets/Black.mat
+  artifactKey: Guid(8c5e6b2bb35e84a798d1ce60b2c3d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black.mat using Guid(8c5e6b2bb35e84a798d1ce60b2c3d908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fc5f106946b83f15ccba8839bc3581') in 0.019352 seconds
+  Import took 0.023132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.253750 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(dae7a035b6cda466987547af115b8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(dae7a035b6cda466987547af115b8902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad07b39170675a80518ce704701cbae') in 0.001726 seconds
+  Import took 0.004447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.234481 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_1.prefab
+  artifactKey: Guid(f4383bc7fc56a1e44b009cab877fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_1.prefab using Guid(f4383bc7fc56a1e44b009cab877fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5168f7230be5d32e0a43321c93ebc1') in 0.018650 seconds
+  Import took 0.021728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_4.prefab
+  artifactKey: Guid(ab7e43b46e30f5a409fe73d7d545bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_4.prefab using Guid(ab7e43b46e30f5a409fe73d7d545bfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64b8ccaf2f70083c7f282a7b3caca3c') in 0.015980 seconds
+  Import took 0.018842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/wall_lighter.prefab
+  artifactKey: Guid(abf9c9ddc7f2f9d4fb450f472036aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/wall_lighter.prefab using Guid(abf9c9ddc7f2f9d4fb450f472036aee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71325e3cf1034a1dcb86a2636f430e84') in 0.012538 seconds
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_2.prefab
+  artifactKey: Guid(5ab7df4388e0265499e7e58faf1d6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_2.prefab using Guid(5ab7df4388e0265499e7e58faf1d6aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfa7c02aecc5be93f9c6a128a075ffc') in 0.020703 seconds
+  Import took 0.024219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Lights/torchere_3.prefab
+  artifactKey: Guid(bac686a178055394f9dfa2e461faba8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Lights/torchere_3.prefab using Guid(bac686a178055394f9dfa2e461faba8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69f5e5fded4a54fc195cb828be10901') in 0.013407 seconds
+  Import took 0.017254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 632.785708 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efec719c81060231ab49e0da4b313b9') in 0.009443 seconds
+  Import took 0.014480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.977226 seconds.
+  path: Assets/BigFurniturePack/Prefabs/Modular kitchen
+  artifactKey: Guid(8fa2a3bbb791db5469073bb44e90868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigFurniturePack/Prefabs/Modular kitchen using Guid(8fa2a3bbb791db5469073bb44e90868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab42b6b23da5ddc2aef85bcd515e737') in 0.002580 seconds
+  Import took 0.005599 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 2.107842 ms (FindLiveObjects: 0.193198 ms CreateObjectMapping: 0.046379 ms MarkObjects: 1.338642 ms  DeleteObjects: 0.528627 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3887.418577 seconds.
+  path: Assets/[Free] Phone/phone1k.prefab
+  artifactKey: Guid(4b658ae02ca4e154f80cea2d74db1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Free] Phone/phone1k.prefab using Guid(4b658ae02ca4e154f80cea2d74db1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbd502b7b94f9d0c33122db180f76c1') in 0.377869 seconds
+  Import took 0.381425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/[Free] Phone/phone2k.prefab
+  artifactKey: Guid(9c993bdd1f0fb3e4da5b61dabec5fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Free] Phone/phone2k.prefab using Guid(9c993bdd1f0fb3e4da5b61dabec5fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d04721e1ee36e1f342bcdb7cfdef6') in 0.049444 seconds
+  Import took 0.052340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/[Free] Phone/phone512.prefab
+  artifactKey: Guid(93903fac38405d94381bff9993d61f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Free] Phone/phone512.prefab using Guid(93903fac38405d94381bff9993d61f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6188521dfcc711c6aac78b85655a8dbe') in 0.015477 seconds
+  Import took 0.018344 seconds .
+
