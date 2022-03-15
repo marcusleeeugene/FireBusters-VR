@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637828575200000000
+      ticks: 637829157710000000
     m_Hash: 576266810
   m_LockFileStatus:
     m_FilePath: /Users/marcusleeeugene/Desktop/FireBusters-VR/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637828575220000000
+      ticks: 637829306730000000
     m_Hash: 3989503953
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
