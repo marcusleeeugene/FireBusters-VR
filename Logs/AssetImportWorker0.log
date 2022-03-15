@@ -2964,3 +2964,131 @@ Received Import Request.
 Start importing Assets/BigFurniturePack/Textures using Guid(728412b74b8245e469ac2e1d105c1f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f10a584aa7fdb134bf3c4c4b623fb5f') in 0.001121 seconds
   Import took 0.006371 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 7381.376109 seconds.
+  path: Assets/Materials/Floor White.mat
+  artifactKey: Guid(f58f5d7057b6240fb975be68b8b31145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor White.mat using Guid(f58f5d7057b6240fb975be68b8b31145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7907eec6e29b2f05b8d99eef5d701a7') in 0.065933 seconds
+  Import took 0.101987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Materials/Wall White.mat
+  artifactKey: Guid(cf6d7eca2b5d54ef897f8f156e086381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall White.mat using Guid(cf6d7eca2b5d54ef897f8f156e086381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f81cfd33ed57a600a9b77080680cff0') in 0.015521 seconds
+  Import took 0.020091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.333384 seconds.
+  path: Assets/elevator-door.obj
+  artifactKey: Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/elevator-door.obj using Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d12aeae17e08df6436acfeba1d89022') in 0.039843 seconds
+  Import took 0.044503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.606534 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.001889 seconds
+  Import took 0.006701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008861 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.001249 seconds
+  Import took 0.005897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.713501 seconds.
+  path: Assets/Elevator/Materials
+  artifactKey: Guid(09c60db16311d4246a359809e3151a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/Materials using Guid(09c60db16311d4246a359809e3151a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223a94d713e26dd263da3103c61abdd6') in 0.002086 seconds
+  Import took 0.006956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.906505 seconds.
+  path: Assets/Elevator/Textures
+  artifactKey: Guid(82d5275f23c594837a2bb60297a15ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/Textures using Guid(82d5275f23c594837a2bb60297a15ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209721da853d04371140488f65a69da0') in 0.002029 seconds
+  Import took 0.006905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.528739 seconds.
+  path: Assets/Elevator/elevator-door.jpg
+  artifactKey: Guid(70eaee7e6830446df8dbf42818d4e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.jpg using Guid(70eaee7e6830446df8dbf42818d4e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c827b08b1df9e1c368a263ba8f08376e') in 0.030722 seconds
+  Import took 0.035834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.352459 seconds.
+  path: Assets/Elevator/defaultMat.mat
+  artifactKey: Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/defaultMat.mat using Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2023428e33cd0c6ff1ab9f044f84c4ac') in 0.011256 seconds
+  Import took 0.016868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Elevator/elevator-door.obj
+  artifactKey: Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.obj using Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95679e987ab9acdaeccac99bb5c5d458') in 0.022347 seconds
+  Import took 0.027129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.111138 seconds.
+  path: Assets/Elevator/elevator-door.mtl
+  artifactKey: Guid(5c6fccec047f14de3a8d54de60b2caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.mtl using Guid(5c6fccec047f14de3a8d54de60b2caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7660efbbcb2a67013d4fc4a0df8db72') in 0.199371 seconds
+  Import took 0.204416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.339781 seconds.
+  path: Assets/Elevator/defaultMat.mat
+  artifactKey: Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/defaultMat.mat using Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f651a9c0a132f6a06703abf1a8750995') in 0.018329 seconds
+  Import took 0.023394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Elevator/elevator-door.obj
+  artifactKey: Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.obj using Guid(5c0f323e3006a4238bdb8dcb8c92462e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1b3d9b01a0cfaad79bcac09b6c5cb9') in 0.024016 seconds
+  Import took 0.029221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.457624 seconds.
+  path: Assets/Elevator/elevator-door.jpeg
+  artifactKey: Guid(7e50cebc806bd4f83a0b43ae3091f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.jpeg using Guid(7e50cebc806bd4f83a0b43ae3091f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfb0e561e41ca82b642ea802e0ede08') in 0.020860 seconds
+  Import took 0.025883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001894 seconds.
+  path: Assets/Elevator/elevator-door.jpeg
+  artifactKey: Guid(7e50cebc806bd4f83a0b43ae3091f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/elevator-door.jpeg using Guid(7e50cebc806bd4f83a0b43ae3091f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfb0e561e41ca82b642ea802e0ede08') in 0.010085 seconds
+  Import took 0.014382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.951027 seconds.
+  path: Assets/Elevator/defaultMat.mat
+  artifactKey: Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/defaultMat.mat using Guid(26c3ec81e162342cbbb41a4cb9b3623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaab68c5c1aa389fd52aa15159744a4') in 0.021172 seconds
+  Import took 0.026140 seconds .
+
