@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: f054e366653a7c14186595569de398f9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Controls1:CLOSE
+    100002: Controls1:CLOSE1
+    100004: Controls1:curve2
+    100006: Controls1:curve2 1
+    100008: Controls1:curve3
+    100010: Controls1:curve3 1
+    100012: Controls1:curve4
+    100014: Controls1:curve5
+    100016: Controls1:OPEN1
+    100018: Controls1:OPEN3
+    100020: Controls1:Open_Close
+    100022: Controls1:Open_Close1
+    100024: Controls1:polyToCurve1
+    100026: Controls1:polyToCurve1 1
+    100028: Controls1:polyToCurve11
+    100030: Controls1:polyToCurve13
+    100032: Controls1:polyToCurve14
+    100034: Controls1:polyToCurve16
+    100036: Controls1:polyToCurve17
+    100038: Controls1:polyToCurve18
+    100040: Controls1:polyToCurve2
+    100042: Controls1:polyToCurve2 1
+    100044: Controls1:polyToCurve3
+    100046: Controls1:polyToCurve3 1
+    100048: Controls1:polyToCurve4
+    100050: Controls1:polyToCurve4 1
+    100052: Controls1:polyToCurve5
+    100054: Controls1:polyToCurve5 1
+    100056: Controls1:polyToCurve6
+    100058: Controls1:polyToCurve6 1
+    100060: Door
+    100062: Lock
+    100064: polyToCurve1
+    100066: polyToCurve2
+    100068: polyToCurve4
+    100070: polyToCurve5
+    100072: //RootNode
+    100074: SimpleDoor_DoorFrame_LOD0
+    100076: SimpleDoor_DoorFrame_LOD1
+    100078: SimpleDoor_DoorFrame_LOD2
+    100080: SimpleDoor_Handle1_LOD0
+    100082: SimpleDoor_Handle1_LOD1
+    100084: SimpleDoor_Handle1_LOD2
+    100086: SimpleDoor_Handle2_LOD0
+    100088: SimpleDoor_Handle2_LOD1
+    100090: SimpleDoor_Handle2_LOD2
+    100092: SimpleDoor_MainDoor_LOD0
+    100094: SimpleDoor_MainDoor_LOD1
+    100096: SimpleDoor_MainDoor_LOD2
+    100098: UI_Curve
+    400000: Controls1:CLOSE
+    400002: Controls1:CLOSE1
+    400004: Controls1:curve2
+    400006: Controls1:curve2 1
+    400008: Controls1:curve3
+    400010: Controls1:curve3 1
+    400012: Controls1:curve4
+    400014: Controls1:curve5
+    400016: Controls1:OPEN1
+    400018: Controls1:OPEN3
+    400020: Controls1:Open_Close
+    400022: Controls1:Open_Close1
+    400024: Controls1:polyToCurve1
+    400026: Controls1:polyToCurve1 1
+    400028: Controls1:polyToCurve11
+    400030: Controls1:polyToCurve13
+    400032: Controls1:polyToCurve14
+    400034: Controls1:polyToCurve16
+    400036: Controls1:polyToCurve17
+    400038: Controls1:polyToCurve18
+    400040: Controls1:polyToCurve2
+    400042: Controls1:polyToCurve2 1
+    400044: Controls1:polyToCurve3
+    400046: Controls1:polyToCurve3 1
+    400048: Controls1:polyToCurve4
+    400050: Controls1:polyToCurve4 1
+    400052: Controls1:polyToCurve5
+    400054: Controls1:polyToCurve5 1
+    400056: Controls1:polyToCurve6
+    400058: Controls1:polyToCurve6 1
+    400060: Door
+    400062: Lock
+    400064: polyToCurve1
+    400066: polyToCurve2
+    400068: polyToCurve4
+    400070: polyToCurve5
+    400072: //RootNode
+    400074: SimpleDoor_DoorFrame_LOD0
+    400076: SimpleDoor_DoorFrame_LOD1
+    400078: SimpleDoor_DoorFrame_LOD2
+    400080: SimpleDoor_Handle1_LOD0
+    400082: SimpleDoor_Handle1_LOD1
+    400084: SimpleDoor_Handle1_LOD2
+    400086: SimpleDoor_Handle2_LOD0
+    400088: SimpleDoor_Handle2_LOD1
+    400090: SimpleDoor_Handle2_LOD2
+    400092: SimpleDoor_MainDoor_LOD0
+    400094: SimpleDoor_MainDoor_LOD1
+    400096: SimpleDoor_MainDoor_LOD2
+    400098: UI_Curve
+    2100000: SimpleDoor_Mat1
+    2100002: SingleDoor_Mat3
+    2300000: SimpleDoor_DoorFrame_LOD0
+    2300002: SimpleDoor_DoorFrame_LOD1
+    2300004: SimpleDoor_DoorFrame_LOD2
+    2300006: SimpleDoor_Handle1_LOD0
+    2300008: SimpleDoor_Handle1_LOD1
+    2300010: SimpleDoor_Handle1_LOD2
+    2300012: SimpleDoor_Handle2_LOD0
+    2300014: SimpleDoor_Handle2_LOD1
+    2300016: SimpleDoor_Handle2_LOD2
+    2300018: SimpleDoor_MainDoor_LOD0
+    2300020: SimpleDoor_MainDoor_LOD1
+    2300022: SimpleDoor_MainDoor_LOD2
+    3300000: SimpleDoor_DoorFrame_LOD0
+    3300002: SimpleDoor_DoorFrame_LOD1
+    3300004: SimpleDoor_DoorFrame_LOD2
+    3300006: SimpleDoor_Handle1_LOD0
+    3300008: SimpleDoor_Handle1_LOD1
+    3300010: SimpleDoor_Handle1_LOD2
+    3300012: SimpleDoor_Handle2_LOD0
+    3300014: SimpleDoor_Handle2_LOD1
+    3300016: SimpleDoor_Handle2_LOD2
+    3300018: SimpleDoor_MainDoor_LOD0
+    3300020: SimpleDoor_MainDoor_LOD1
+    3300022: SimpleDoor_MainDoor_LOD2
+    4300000: SimpleDoor_MainDoor_LOD0
+    4300002: SimpleDoor_Handle1_LOD0
+    4300004: SimpleDoor_Handle2_LOD0
+    4300006: SimpleDoor_MainDoor_LOD2
+    4300008: SimpleDoor_Handle1_LOD2
+    4300010: SimpleDoor_Handle2_LOD2
+    4300012: SimpleDoor_DoorFrame_LOD1
+    4300014: SimpleDoor_DoorFrame_LOD2
+    4300016: SimpleDoor_MainDoor_LOD1
+    4300018: SimpleDoor_Handle1_LOD1
+    4300020: SimpleDoor_Handle2_LOD1
+    4300022: SimpleDoor_DoorFrame_LOD0
+    7400000: Complete
+    7400002: Door_Open
+    7400004: Door_Close
+    7400006: Door_Jam
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SimpleDoor_Mat1
+    second: {fileID: 2100000, guid: 0e4a863307f742341ad22834dbd928ea, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Complete
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door_Open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door_Close
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door_Jam
+      takeName: Take 001
+      firstFrame: 91
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
