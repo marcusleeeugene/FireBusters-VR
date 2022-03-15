@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 8c8ba908765f8584e9f2948b64581a1a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chestOfDraws_Base
+    100002: draw01
+    100004: draw02
+    100006: draw03
+    100008: draw04
+    100010: draw05
+    100012: draw06
+    100014: draw07
+    100016: grp_draw_01
+    100018: grp_draw_02
+    100020: grp_draw_03
+    100022: grp_draw_04
+    100024: grp_draw_05
+    100026: grp_draw_06
+    100028: grp_draw_07
+    100030: //RootNode
+    400000: chestOfDraws_Base
+    400002: draw01
+    400004: draw02
+    400006: draw03
+    400008: draw04
+    400010: draw05
+    400012: draw06
+    400014: draw07
+    400016: grp_draw_01
+    400018: grp_draw_02
+    400020: grp_draw_03
+    400022: grp_draw_04
+    400024: grp_draw_05
+    400026: grp_draw_06
+    400028: grp_draw_07
+    400030: //RootNode
+    2300000: chestOfDraws_Base
+    2300002: draw01
+    2300004: draw02
+    2300006: draw03
+    2300008: draw04
+    2300010: draw05
+    2300012: draw06
+    2300014: draw07
+    3300000: chestOfDraws_Base
+    3300002: draw01
+    3300004: draw02
+    3300006: draw03
+    3300008: draw04
+    3300010: draw05
+    3300012: draw06
+    3300014: draw07
+    4300000: chestOfDraws_Base
+    4300002: draw01
+    4300004: draw02
+    4300006: draw03
+    4300008: draw04
+    4300010: draw05
+    4300012: draw06
+    4300014: draw07
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedroomFurniture_MAT
+    second: {fileID: 2100000, guid: bbff17a888fc93a408a34e3b95c5e885, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
