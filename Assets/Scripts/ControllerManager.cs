@@ -7,13 +7,11 @@ using Valve.VR;
 public class ControllerManager : MonoBehaviour
 {
     public SteamVR_Action_Boolean grabAction;
-    public SteamVR_Action_Boolean shootAction;
     public SteamVR_Action_Boolean teleportAction;
 
     private SteamVR_Input_Sources handType;
     private SteamVR_Behaviour_Pose controllerPose;
     private ControllerGrabScript grabber;
-    private ControllerShootScript shooter;
     private ControllerTeleportScript teleporter;
 
     private GameObject objectInHand;
@@ -24,7 +22,6 @@ public class ControllerManager : MonoBehaviour
         controllerPose = GetComponent<SteamVR_Behaviour_Pose>();
         handType = controllerPose.inputSource;
         grabber = GetComponent<ControllerGrabScript>();
-        shooter = GetComponent<ControllerShootScript>();
         teleporter = GetComponent<ControllerTeleportScript>();
     }
 
@@ -40,17 +37,6 @@ public class ControllerManager : MonoBehaviour
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
                     objectInHand = grabber.GrabObject();
-                }
-            }
-
-            if (shooter)
-            {
-                if (shootAction.GetLastStateDown(handType) && objectInHand)
-                {
-                    Debug.Log("Released!");
-                    grabber.ReleaseObject(controllerPose);
-                    shooter.Shoot(objectInHand);
-                    objectInHand = null;
                 }
             }
         }

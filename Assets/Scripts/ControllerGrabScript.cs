@@ -63,17 +63,11 @@ public class ControllerGrabScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Water") 
-        {
-            SetCollidingObject(other);
-        }
+        SetCollidingObject(other);
     }
 
     void OnTriggerStay(Collider other) {
-        if (other.tag == "Water") 
-        {
-            SetCollidingObject(other);
-        }
+        SetCollidingObject(other);
     }
 
     void OnTriggerExit(Collider other)
