@@ -38,7 +38,6 @@ public class ControllerTeleportScript : MonoBehaviour
         {
             if(hit.transform.tag == "Ground") {
                 hitPoint = hit.point;
-                Global.laserInFocus = hit.transform.gameObject;
                 ShowLaser(hit, controllerPose);
             }
         }
@@ -67,6 +66,7 @@ public class ControllerTeleportScript : MonoBehaviour
 
     private void ShowLaser(RaycastHit hit, SteamVR_Behaviour_Pose controllerPose)
     {
+        Debug.Log("SHOWING!");
         laser.SetActive(true);
         reticle.SetActive(true);
         teleportReticleTransform.position = hitPoint + teleportReticleOffset;
