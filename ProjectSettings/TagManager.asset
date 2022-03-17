@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - EndPoint
+  - projectile
+  - FxTemporaire
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -45,6 +45,7 @@ public class ControllerManager : MonoBehaviour
         {
             if (teleportAction.GetState(handType))
             {
+                Debug.Log("Here");
                 teleporter.TryLaser(controllerPose);
             }
             else
