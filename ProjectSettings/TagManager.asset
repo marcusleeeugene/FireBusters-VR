@@ -8,6 +8,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - Ground
+  - LockedLevel
+  - UnlockedLevel
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - TEXT
   - 
   - 
   - 
