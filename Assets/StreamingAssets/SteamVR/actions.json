@@ -49,6 +49,15 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/GrabGrip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Squeeze",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -485,7 +494,8 @@
       "/actions/htc_viu/in/viu_axis_4xy": "Axis4 X&Y",
       "/actions/htc_viu/out/viu_vib_01": "Vibration",
       "/actions/htc_viu/in/viu_skeleton_left": "Skeleton (Left)",
-      "/actions/htc_viu/in/viu_skeleton_right": "Skeleton (Right)"
+      "/actions/htc_viu/in/viu_skeleton_right": "Skeleton (Right)",
+      "/actions/default/in/GrabGrip": "Grab Grip"
     }
   ]
 }
