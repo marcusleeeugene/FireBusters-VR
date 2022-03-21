@@ -9,6 +9,8 @@ TagManager:
   - FxTemporaire
   - Grabbable
   - Ground
+  - LockedLevel
+  - UnlockedLevel
   layers:
   - Default
   - TransparentFX
@@ -16,9 +18,7 @@ TagManager:
   -
   - Water
   - UI
-  -
-  -
-  -
+  - TEXT
   -
   -
   -
