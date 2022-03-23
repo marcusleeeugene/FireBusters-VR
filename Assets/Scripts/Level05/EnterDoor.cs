@@ -7,6 +7,7 @@ public class EnterDoor : MonoBehaviour
     private string handTag = "Hand";
     private bool isTriggered = false;
     public GameObject cameraRig;
+    public AudioSource openDoorAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class EnterDoor : MonoBehaviour
         if (other.tag == handTag && !isTriggered)
         {
             cameraRig.transform.Translate(Vector3.forward * 2);
+            openDoorAudio.Play();
             isTriggered = true;
         }
     }
