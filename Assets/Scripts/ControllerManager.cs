@@ -8,11 +8,13 @@ public class ControllerManager : MonoBehaviour
 {
     public SteamVR_Action_Boolean grabAction;
     public SteamVR_Action_Boolean teleportAction;
+    public SteamVR_Action_Boolean showInstructionAction;
 
     private SteamVR_Input_Sources handType;
     private SteamVR_Behaviour_Pose controllerPose;
     private ControllerGrabScript grabber;
     private ControllerTeleportScript teleporter;
+    private ControllerInstructionScript instruction;
 
     private GameObject objectInHand;
 
@@ -23,6 +25,7 @@ public class ControllerManager : MonoBehaviour
         handType = controllerPose.inputSource;
         grabber = GetComponent<ControllerGrabScript>();
         teleporter = GetComponent<ControllerTeleportScript>();
+        instruction = GetComponent<ControllerInstructionScript>();
     }
 
     // Update is called once per frame
@@ -32,7 +35,6 @@ public class ControllerManager : MonoBehaviour
         {
             if (grabAction.GetLastStateDown(handType))
             {
-                Debug.Log("Grabbing!");
                 if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
@@ -45,7 +47,6 @@ public class ControllerManager : MonoBehaviour
         {
             if (teleportAction.GetState(handType))
             {
-                Debug.Log("Here");
                 teleporter.TryLaser(controllerPose);
             }
             else
@@ -56,6 +57,14 @@ public class ControllerManager : MonoBehaviour
             if (teleportAction.GetStateUp(handType) && teleporter.ShouldTeleport())
             {
                 teleporter.Teleport();
+            }
+        }
+
+        if (instruction) 
+        {
+            if (showInstructionAction.GetState(handType))
+            {
+                instruction.ToggleInstruction();
             }
         }
     }

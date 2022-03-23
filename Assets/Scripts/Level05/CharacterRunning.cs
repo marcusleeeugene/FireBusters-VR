@@ -5,8 +5,6 @@ using UnityEngine;
 public class CharacterRunning : MonoBehaviour
 {
     public float movementSpeed = 1f;
-    private float timer = 0.0f;
-    private bool isTurning = false;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +33,5 @@ public class CharacterRunning : MonoBehaviour
 
     void ChangeDirection() {
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
-        isTurning = false;
     }
 }
