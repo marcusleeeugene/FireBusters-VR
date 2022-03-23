@@ -1,0 +1,8 @@
+Welcome to the Fire Escape level.
+
+Your neighbour has accidentally created a small fire at the common corridor.
+
+Your task will be to trigger the fire alarm and find the nearest fire exit staircase and escape the building. 
+
+The Fire Fighter will be waiting to save you at the end of the exit staircase.
+
