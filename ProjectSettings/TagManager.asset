@@ -7,9 +7,11 @@ TagManager:
   - EndPoint
   - projectile
   - FxTemporaire
+  - Grabbable
   - Ground
   - LockedLevel
   - UnlockedLevel
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - UI
   - 
   - 
-  - TEXT
+  - 
   - 
   - 
   - 

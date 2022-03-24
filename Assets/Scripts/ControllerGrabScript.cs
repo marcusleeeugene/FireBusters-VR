@@ -8,6 +8,7 @@ public class ControllerGrabScript : MonoBehaviour
     private GameObject collidingObject;
     private GameObject objectInHand;
     public AudioSource grabAudio;
+    private string grabbableTag = "Grabbable";
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class ControllerGrabScript : MonoBehaviour
     public GameObject GrabObject()
     {
         grabAudio.Play();
-        
+
         objectInHand = collidingObject;
         collidingObject = null;
 
@@ -63,11 +64,17 @@ public class ControllerGrabScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        SetCollidingObject(other);
+        if (other.tag == grabbableTag)
+        {
+            SetCollidingObject(other);
+        }
     }
 
     void OnTriggerStay(Collider other) {
-        SetCollidingObject(other);
+        if (other.tag == grabbableTag)
+        {
+            SetCollidingObject(other);
+        }
     }
 
     void OnTriggerExit(Collider other)
