@@ -5,7 +5,7 @@ using Valve.VR;
 
 public class ControllerInstructionScript : MonoBehaviour
 {
-    public GameObject instructionPanel;
+    public GameObject instructionCanvas;
     private bool showInstruction = false;
     
     // Start is called before the first frame update
@@ -22,9 +22,9 @@ public class ControllerInstructionScript : MonoBehaviour
 
     public void ToggleInstruction() {
         if(showInstruction) {
-            instructionPanel.SetActive(true);
+            instructionCanvas.SetActive(true);
         } else {
-            instructionPanel.SetActive(false);
+            instructionCanvas.SetActive(false);
         }
         showInstruction = !showInstruction;
     }
