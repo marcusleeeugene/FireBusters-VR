@@ -32,7 +32,7 @@ public class PortalEntry : MonoBehaviour
                     SceneManager.LoadScene("Level4");
                     break;
                 case 4:
-                    SceneManager.LoadScene("Level05");
+                    SceneManager.LoadScene("FireEscapeLevel");
                     break;
             }
             

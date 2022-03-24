@@ -7,10 +7,9 @@ public class StartMenuManager : MonoBehaviour
 {
 
     public Panel currentPanel;
-    public GameObject title;
     private Canvas canvas;
     private List<Panel> panelHistory = new List<Panel>();
-    public Toggle toggle;
+    private Toggle toggle;
     
     void Awake(){
         canvas = GetComponent<Canvas>();
