@@ -29,7 +29,7 @@ public class PortalEntry : MonoBehaviour
                     SceneManager.LoadScene("Level02");
                     break;
                 case 3:
-                    SceneManager.LoadScene("Level03");
+                    SceneManager.LoadScene("Level4");
                     break;
                 case 4:
                     SceneManager.LoadScene("Level05");
