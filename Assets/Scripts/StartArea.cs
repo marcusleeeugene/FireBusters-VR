@@ -12,7 +12,7 @@ public class StartArea : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         levelCompleted[0] = true;
-        levelCompleted[1] = true;
+        levelCompleted[3] = true;
         displayEntryPoints();
     }
 
