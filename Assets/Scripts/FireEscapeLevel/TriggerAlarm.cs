@@ -28,6 +28,7 @@ public class TriggerAlarm : MonoBehaviour
             fireAlarm.Play();
             broadcast.Play();
             isTriggered = true;
+            LevelStateManager.isTriggerAlarm = true;
         }
     }
 }
