@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-Requires a trigger collider and will register a trigger collision when an object with a non-trigger collider and flammable script happens.
+Requires collider to be a trigger and will register a trigger collision when an object with a non-trigger collider and flammable script happens.
+One of the colliding objects must have a Rigidbody.
 */
+[RequireComponent(typeof(BoxCollider))]
 public class Fire : MonoBehaviour
 {
     // Index should correspond to extinguisher types
