@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fire : MonoBehaviour
+public class FireTemp : MonoBehaviour
 {
     private bool isHitCarbonDioxide; // Determines if fire is hit by carbon dioxide
     private bool isHitWater; // Determines if fire is hit by water
