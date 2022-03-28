@@ -12,6 +12,15 @@ TagManager:
   - LockedLevel
   - UnlockedLevel
   - Hand
+  - Fire
+  - CarbonDioxide
+  - Water
+  - Powder
+  - FireAerosolCan
+  - FireBattery
+  - FireOilCan
+  - FireChair
+  - FireFridge
   layers:
   - Default
   - TransparentFX
