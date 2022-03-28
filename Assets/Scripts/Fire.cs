@@ -28,6 +28,11 @@ public class Fire : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public Type GetFireType()
+    {
+        return type;
+    }
+
     void OnTriggerEnter(Collider collider)
     {
         Extinguisher extinguisher = collider.GetComponent<Extinguisher>();
