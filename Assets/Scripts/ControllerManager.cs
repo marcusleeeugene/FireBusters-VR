@@ -38,7 +38,13 @@ public class ControllerManager : MonoBehaviour
         {
             if (grabAction.GetLastStateDown(handType))
             {
-                if (grabber.IsCollidingObject())
+                Debug.Log(handType);
+                if (grabber.IsGrabbing())
+                {
+                    objectInHand = null;
+                    grabber.ReleaseObject(controllerPose);
+                }
+                else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
                     objectInHand = grabber.GrabObject();

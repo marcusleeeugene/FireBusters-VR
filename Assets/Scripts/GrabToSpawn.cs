@@ -13,7 +13,7 @@ public class GrabToSpawn : MonoBehaviour
 
     void OnColliderStay(Collider collider)
     {
-        if (collider.tag == "Hand" && (grabAction.GetLastStateDown(SteamVR_Input_Sources.LeftHand) || grabAction.GetLastStateDown(SteamVR_Input_Sources.RightHand)))
+        if (collider.tag == "Hand" && (grabAction.GetLastStateDown((SteamVR_Input_Sources)SteamVR_Input_Sources.LeftHand) || grabAction.GetLastStateDown(SteamVR_Input_Sources.RightHand)))
         {
             if (spawnOnHand) {
                 Spawn(collider.transform.position, Quaternion.identity);
