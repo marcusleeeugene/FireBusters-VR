@@ -9,14 +9,14 @@ public class ControllerManager : MonoBehaviour
     public SteamVR_Action_Boolean grabAction;
     public SteamVR_Action_Boolean teleportAction;
     public SteamVR_Action_Boolean showInstructionAction;
-    public SteamVR_Action_Boolean startMenuAction;
+    // public SteamVR_Action_Boolean startMenuAction;
 
     private SteamVR_Input_Sources handType;
     private SteamVR_Behaviour_Pose controllerPose;
     private ControllerGrabScript grabber;
     private ControllerTeleportScript teleporter;
     private ControllerInstructionScript instruction;
-    private ControllerStartMenu startMenu;
+    // private ControllerStartMenu startMenu;
 
     private GameObject objectInHand;
 
@@ -28,7 +28,7 @@ public class ControllerManager : MonoBehaviour
         grabber = GetComponent<ControllerGrabScript>();
         teleporter = GetComponent<ControllerTeleportScript>();
         instruction = GetComponent<ControllerInstructionScript>();
-        startMenu = GetComponent<ControllerStartMenu>();
+        // startMenu = GetComponent<ControllerStartMenu>();
     }
 
     // Update is called once per frame
