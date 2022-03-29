@@ -1,0 +1,13 @@
+Welcome to the Fire Class level.
+
+Objective: Learn different fire extinguishers can extinguish different types of flammable objects.
+
+Class A: Water fire extinguisher -> Wooden chair (wood)
+Class B: Carbon Dioxide fire extinguisher -> Oil can (petrol)
+Class C: Dry Powder fire extinguisher->  Aerosol can (butane/methane)
+Class D: Dry Powder fire extinguisher -> Battery (Lithium/Potassium)
+Class E: Carbon Dioxide fire extinguisher -> Fridge (Electrical Appliance)
+
+
+
+
