@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Point.unity
     guid: f6834c89d07756b45b3aed6d84a3f313
   - enabled: 1
-    path: Assets/Scenes/Level01.unity
+    path: Assets/Scenes/FireClassLevel.unity
     guid: be4ee1bef4b7a4bd19c20dd4a9c360d7
   - enabled: 1
     path: Assets/Scenes/SandboxLevel.unity
