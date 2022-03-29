@@ -18,7 +18,6 @@ public class Fire : MonoBehaviour
     }
     public Type type;
     private float fadePerSecond = 0.3f;
-
     private AudioSource audioSource;
     private bool isExtinguishing = false;
 
@@ -38,6 +37,7 @@ public class Fire : MonoBehaviour
         {
             isExtinguishing = true;
             gameObject.SetActive(false);
+            audioSource.Stop();
             // StartCoroutine(FadingExtinguish());
             isExtinguishing = false;
         }
