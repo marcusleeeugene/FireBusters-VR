@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class LevelStateManager : MonoBehaviour
 {
-    static bool isTriggerAlarm;
-    static bool isChooseFireEscape;
+    public static bool isTriggerAlarm;
 
     // Start is called before the first frame update
     void Start()
     {
-        isTriggerAlarm = false;;
+        isTriggerAlarm = false;
     }
 
     // Update is called once per frame
