@@ -358,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4721097812878443612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.046, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4721805352530304088}
@@ -807,9 +807,11 @@ GameObject:
   - component: {fileID: 4721805352532633350}
   - component: {fileID: 4721805352531568258}
   - component: {fileID: 4721805352540209122}
+  - component: {fileID: 1390913962288390599}
+  - component: {fileID: 3412950094456940366}
   m_Layer: 0
   m_Name: '[CameraRig]'
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,7 +824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4721805352530546080}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 48.02, y: 26.2, z: 234.95}
+  m_LocalPosition: {x: 48.02, y: 27, z: 234.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4721805352530227370}
@@ -907,6 +909,35 @@ MonoBehaviour:
   - {x: -1.65, y: 0.01, z: -1.275}
   - {x: -1.65, y: 0.01, z: 1.275}
   - {x: 1.65, y: 0.01, z: 1.275}
+--- !u!65 &1390913962288390599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721805352530546080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 8, z: 5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3412950094456940366
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721805352530546080}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4721805352530546332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,10 +1207,10 @@ MonoBehaviour:
     actionPath: /actions/default/in/Teleport
     needsReinit: 0
   showInstructionAction:
-    actionPath: 
+    actionPath: /actions/buggy/in/Brake
     needsReinit: 0
   startMenuAction:
-    actionPath: 
+    actionPath: /actions/default/in/InteractUI
     needsReinit: 0
 --- !u!114 &7441441173015239298
 MonoBehaviour:

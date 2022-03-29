@@ -50,6 +50,7 @@ public class ControllerManager : MonoBehaviour
         {
             if (teleportAction.GetState(handType))
             {
+            //     Debug.Log("hi");
                 teleporter.TryLaser(controllerPose);
             }
             else
@@ -59,6 +60,7 @@ public class ControllerManager : MonoBehaviour
 
             if (teleportAction.GetStateUp(handType) && teleporter.ShouldTeleport())
             {
+                // Debug.Log("bye");
                 teleporter.Teleport();
             }
         }
