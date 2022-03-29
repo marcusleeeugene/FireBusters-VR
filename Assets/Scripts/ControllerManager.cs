@@ -73,13 +73,13 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (startMenu)
-        {
-            if (startMenuAction.GetState(handType)){
-                startMenu.TryLaser(controllerPose);
-            } else {
-                startMenu.DisableLaser();
-            }
-        }
+        // if (startMenu)
+        // {
+        //     if (startMenuAction.GetState(handType)){
+        //         startMenu.TryLaser(controllerPose);
+        //     } else {
+        //         startMenu.DisableLaser();
+        //     }
+        // }
     }
 }
