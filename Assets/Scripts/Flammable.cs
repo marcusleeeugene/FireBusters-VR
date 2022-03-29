@@ -22,7 +22,7 @@ public class Flammable : MonoBehaviour
 
     void Update()
     {
-        if (fireRef)
+        if (onFire)
         {
             fireRef.transform.position = gameObject.transform.position;
         }
@@ -30,9 +30,30 @@ public class Flammable : MonoBehaviour
 
     public void LightFire()
     {
-        if (!fireRef)
+        if (!onFire)
         {
-            fireRef = Instantiate(fire);
+            if (!fireRef)
+            {
+                fireRef = Instantiate(fire);
+            }
+            else
+            {
+                fireRef.SetActive(true);
+            }
+            onFire = true;
+        }
+    }
+
+    public void KillFire()
+    {
+        if (onFire)
+        {
+            Fire comp = fireRef.GetComponent<Fire>();
+            if (comp)
+            {
+                comp.Extinguish();
+            }
+            onFire = false;
         }
     }
 }

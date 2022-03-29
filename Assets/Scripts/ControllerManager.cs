@@ -38,9 +38,19 @@ public class ControllerManager : MonoBehaviour
         {
             if (grabAction.GetLastStateDown(handType))
             {
-                if (grabber.IsCollidingObject())
+                if (grabber.IsGrabbing())
+                {
+                    objectInHand = null;
+                    grabber.ReleaseObject(controllerPose);
+                }
+                else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
+                    GrabToSpawn gts = grabber.GetCollidingObject().GetComponent<GrabToSpawn>();
+                    if (gts)
+                    {
+                        gts.Spawn(grabber.transform.position);
+                    }
                     objectInHand = grabber.GrabObject();
                 }
             }
@@ -65,7 +75,7 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (instruction) 
+        if (instruction)
         {
             if (showInstructionAction.GetState(handType))
             {
