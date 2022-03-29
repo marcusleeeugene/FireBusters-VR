@@ -19,7 +19,7 @@ public class PortalEntry : MonoBehaviour
         
     }
     void OnTriggerEnter(Collider other) {
-        if(other.gameObject.CompareTag("Hand"))
+        if(other.gameObject.CompareTag("GameController"))
         {
             portalTeleportAudio.Play();
             int levelNumber =  transform.GetSiblingIndex() + 1;     // 1 <= levelNumber <= 4
