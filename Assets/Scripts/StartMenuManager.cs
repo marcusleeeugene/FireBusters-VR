@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class StartMenuManager : MonoBehaviour
 {
+    public GameObject canvasBase;
 
     public Panel currentPanel;
     private Canvas canvas;
@@ -55,8 +56,11 @@ public class StartMenuManager : MonoBehaviour
         currentPanel.Show();
     }
 
-    public void StartGame(){
+    public void StartGame(GameObject UIPointer){
         canvas.enabled = false;
+        UIPointer.SetActive(false);
+        canvasBase.SetActive(false);
+
     }
 
     public void EnableSound(Toggle toggle){
