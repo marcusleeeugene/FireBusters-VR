@@ -47,6 +47,11 @@ public class ControllerManager : MonoBehaviour
                 else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
+                    GrabToSpawn gts = grabber.GetCollidingObject().GetComponent<GrabToSpawn>();
+                    if (gts)
+                    {
+                        gts.Spawn(grabber.transform.position);
+                    }
                     objectInHand = grabber.GrabObject();
                 }
             }
@@ -69,7 +74,7 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (instruction) 
+        if (instruction)
         {
             if (showInstructionAction.GetState(handType))
             {
