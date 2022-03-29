@@ -38,6 +38,7 @@ public class EnterElevatorDoor : MonoBehaviour
     {
         deathVideoScene.SetActive(false);
         AudioListener.pause = false; 
+        LevelStateManager.isTriggerAlarm = false;
     }
 
 }
