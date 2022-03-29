@@ -26,7 +26,7 @@ public class PortalEntry : MonoBehaviour
             Debug.Log(string.Format("Going to level {0} now!!!", levelNumber));
             switch (levelNumber){
                 case 1:
-                    SceneManager.LoadScene("Level01");
+                    SceneManager.LoadScene("FireClassLevel");
                     break;
                 case 2:
                     // SceneManager.LoadScene("Level02");

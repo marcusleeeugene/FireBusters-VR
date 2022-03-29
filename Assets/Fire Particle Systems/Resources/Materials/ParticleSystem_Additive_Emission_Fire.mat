@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ParticleSystem_Additive_Emission_Fire
   m_Shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _COLORADDSUBDIFF_ON _EMISSION
+  m_ShaderKeywords: _ALPHABLEND_ON _COLORADDSUBDIFF_ON _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -93,7 +93,7 @@ Material:
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0.1
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _EmissionEnabled: 0
     - _EnvironmentReflections: 1
     - _FlipbookBlending: 0
@@ -102,7 +102,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _InvFade: 1
-    - _LightingEnabled: 1
+    - _LightingEnabled: 0
     - _Metallic: 0
     - _Mode: 2
     - _OcclusionStrength: 1
@@ -128,6 +128,7 @@ Material:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorAddSubDiff: {r: -1, g: 0, b: 0, a: 0}
+    - _EmisColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 0}
     - _EmissionColor: {r: 1, g: 0.31632653, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
