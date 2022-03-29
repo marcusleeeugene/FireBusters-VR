@@ -50,6 +50,7 @@ public class ControllerManager : MonoBehaviour
         {
             if (teleportAction.GetState(handType))
             {
+            //     Debug.Log("hi");
                 teleporter.TryLaser(controllerPose);
             }
             else
@@ -59,6 +60,7 @@ public class ControllerManager : MonoBehaviour
 
             if (teleportAction.GetStateUp(handType) && teleporter.ShouldTeleport())
             {
+                // Debug.Log("bye");
                 teleporter.Teleport();
             }
         }
@@ -71,13 +73,13 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (startMenu)
-        {
-            if (startMenuAction.GetState(handType)){
-                startMenu.TryLaser(controllerPose);
-            } else {
-                startMenu.DisableLaser();
-            }
-        }
+        // if (startMenu)
+        // {
+        //     if (startMenuAction.GetState(handType)){
+        //         startMenu.TryLaser(controllerPose);
+        //     } else {
+        //         startMenu.DisableLaser();
+        //     }
+        // }
     }
 }

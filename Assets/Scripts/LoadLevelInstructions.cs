@@ -7,8 +7,8 @@ using UnityEngine;
 public class LoadLevelInstructions : MonoBehaviour
 {
     public Text instruction;
-    private const string Level05Name = "Level05";
-    private string level05Instructions = "Level05-instructions";
+    private const string Level05Name = "FireEscapeLevel";
+    private string fireEscapeLevelInstructions = "FireEscapeLevel-instructions";
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,8 @@ public class LoadLevelInstructions : MonoBehaviour
         switch(currentScene) 
         {
             case Level05Name:
-                instructionToLoad = level05Instructions;
+                instructionToLoad = fireEscapeLevelInstructions;
+                Debug.Log("OI!");
                 break;
             default:
                 break;
