@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ExitDoor : MonoBehaviour
 {
     private string handTag = "Hand";
-    private bool isTriggered = false;
+    // private bool isTriggered = false;
     public GameObject cameraRig;
     public AudioSource openDoorAudio;
     public Text alarmNotTriggerMsg;
@@ -27,7 +27,7 @@ public class ExitDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag && !isTriggered)
+        if (other.tag == handTag) // && !isTriggered
         {
             if(!LevelStateManager.isTriggerAlarm)
             {
@@ -35,7 +35,7 @@ public class ExitDoor : MonoBehaviour
             } else {
                 cameraRig.transform.Translate(Vector3.forward * 2);
                 openDoorAudio.Play();
-                isTriggered = true;
+                // isTriggered = true;
             }
         }
     }
