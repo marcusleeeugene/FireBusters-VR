@@ -38,7 +38,6 @@ public class ControllerManager : MonoBehaviour
         {
             if (grabAction.GetLastStateDown(handType))
             {
-                Debug.Log(handType);
                 if (grabber.IsGrabbing())
                 {
                     objectInHand = null;
