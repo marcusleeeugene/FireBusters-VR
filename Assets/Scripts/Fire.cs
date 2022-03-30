@@ -17,21 +17,35 @@ public class Fire : MonoBehaviour
         Gas,
     }
     public Type type;
+    private float fadePerSecond = 0.3f;
     private AudioSource audioSource;
-    private ParticleSystem ps; 
+    private bool isExtinguishing = false;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         // Refer to https://youtu.be/eQphjWreQ0U to make sound louder when player near to fire
-        audioSource.Play();
-        ps = GetComponent<ParticleSystem>();
+        if (audioSource)
+        {
+            audioSource.Play();
+        }
     }
 
     public void Extinguish()
     {
-        audioSource.Stop();
-        ps.Stop();
+        if (!isExtinguishing)
+        {
+            isExtinguishing = true;
+            gameObject.SetActive(false);
+            audioSource.Stop();
+            // StartCoroutine(FadingExtinguish());
+            isExtinguishing = false;
+        }
+    }
+
+    public Type GetFireType()
+    {
+        return type;
     }
 
     void OnTriggerEnter(Collider collider)
@@ -50,5 +64,23 @@ public class Fire : MonoBehaviour
         {
             flammableObj.LightFire();
         }
+    }
+
+    IEnumerator FadingExtinguish()
+    {
+        var material = GetComponent<Renderer>().material;
+
+        while (material.color.a > 0) {
+            yield return new WaitForSeconds(Time.deltaTime);
+            var color = material.color;
+            material.color = new Color(color.r, color.g, color.b, color.a - (fadePerSecond * Time.deltaTime));
+        }
+
+        if (audioSource)
+        {
+            audioSource.Stop();
+        }
+        gameObject.SetActive(false);
+        // Display category of fire extinguisher
     }
 }
