@@ -68,6 +68,7 @@ public class Fire : MonoBehaviour
         if (extinguisher)
         {
             Extinguisher.Type extType = extinguisher.GetExtType();
+
             if ((int)type == (int)extType)
             {
                 Extinguish();
