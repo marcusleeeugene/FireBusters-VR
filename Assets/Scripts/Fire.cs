@@ -17,30 +17,38 @@ public class Fire : MonoBehaviour
         Gas,
     }
     public Type type;
-    private float fadePerSecond = 0.3f;
+    // private float fadePerSecond = 0.3f;
+    public AudioClip fireBurning;
+    public AudioClip wrongFireExtinguisher;
     private AudioSource audioSource;
     private bool isExtinguishing = false;
+    private ParticleSystem ps;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        ps = GetComponent<ParticleSystem>();
         // Refer to https://youtu.be/eQphjWreQ0U to make sound louder when player near to fire
         if (audioSource)
         {
-            audioSource.Play();
+            //audioSource.Play();
+            audioSource.PlayOneShot(fireBurning);
         }
     }
 
     public void Extinguish()
     {
-        if (!isExtinguishing)
-        {
-            isExtinguishing = true;
-            gameObject.SetActive(false);
-            audioSource.Stop();
-            // StartCoroutine(FadingExtinguish());
-            isExtinguishing = false;
-        }
+        audioSource.Stop();
+        ps.Stop();
+        // if (!isExtinguishing)
+        // {
+        //     isExtinguishing = true;
+        //     gameObject.SetActive(false);
+        //     audioSource.Stop();
+        //     // StartCoroutine(FadingExtinguish());
+        //     isExtinguishing = false;
+        // }
+        
     }
 
     public Type GetFireType()
@@ -57,6 +65,9 @@ public class Fire : MonoBehaviour
             if ((int)type == (int)extType)
             {
                 Extinguish();
+            } else
+            {
+                audioSource.PlayOneShot(wrongFireExtinguisher);
             }
         }
         Flammable flammableObj = collider.GetComponent<Flammable>();
@@ -66,21 +77,21 @@ public class Fire : MonoBehaviour
         }
     }
 
-    IEnumerator FadingExtinguish()
-    {
-        var material = GetComponent<Renderer>().material;
+    // IEnumerator FadingExtinguish()
+    // {
+    //     var material = GetComponent<Renderer>().material;
 
-        while (material.color.a > 0) {
-            yield return new WaitForSeconds(Time.deltaTime);
-            var color = material.color;
-            material.color = new Color(color.r, color.g, color.b, color.a - (fadePerSecond * Time.deltaTime));
-        }
+    //     while (material.color.a > 0) {
+    //         yield return new WaitForSeconds(Time.deltaTime);
+    //         var color = material.color;
+    //         material.color = new Color(color.r, color.g, color.b, color.a - (fadePerSecond * Time.deltaTime));
+    //     }
 
-        if (audioSource)
-        {
-            audioSource.Stop();
-        }
-        gameObject.SetActive(false);
-        // Display category of fire extinguisher
-    }
+    //     if (audioSource)
+    //     {
+    //         audioSource.Stop();
+    //     }
+    //     gameObject.SetActive(false);
+    //     // Display category of fire extinguisher
+    // }
 }
