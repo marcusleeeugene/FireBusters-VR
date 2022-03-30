@@ -18,12 +18,16 @@ public class TriggerAlarm : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!LevelStateManager.isTriggerAlarm)
+        {
+            fireAlarm.Stop();
+            broadcast.Stop();
+        }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag) // && !isTriggered
+        if (other.tag == handTag && !fireAlarm.isPlaying && !broadcast.isPlaying) // && !isTriggered
         {
             fireAlarm.Play();
             broadcast.Play();
