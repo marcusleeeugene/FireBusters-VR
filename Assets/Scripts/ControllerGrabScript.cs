@@ -18,7 +18,7 @@ public class ControllerGrabScript : MonoBehaviour
 
     public GameObject GrabObject()
     {
-        grabAudio.Play();
+   //     grabAudio.Play();
 
         objectInHand = collidingObject;
         collidingObject = null;
@@ -52,6 +52,11 @@ public class ControllerGrabScript : MonoBehaviour
         return collidingObject;
     }
 
+    public bool IsGrabbing()
+    {
+        return objectInHand != null;
+    }
+    
     void SetCollidingObject(Collider col)
     {
         if (collidingObject || !col.GetComponent<Rigidbody>())

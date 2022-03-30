@@ -7,7 +7,7 @@ public class TriggerAlarm : MonoBehaviour
     public AudioSource fireAlarm;
     public AudioSource broadcast;
     private string handTag = "Hand";
-    private bool isTriggered = false;
+    // private bool isTriggered = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,11 +23,11 @@ public class TriggerAlarm : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag && !isTriggered)
+        if (other.tag == handTag) // && !isTriggered
         {
             fireAlarm.Play();
             broadcast.Play();
-            isTriggered = true;
+            // isTriggered = true;
             LevelStateManager.isTriggerAlarm = true;
         }
     }

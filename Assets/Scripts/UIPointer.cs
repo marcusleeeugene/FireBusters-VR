@@ -33,6 +33,7 @@ public class UIPointer : MonoBehaviour
         // Or based on hit
         Vector3 endPosition = transform.position + (transform.forward * targetLength);
         if (hit.collider != null){
+            // Debug.Log(hit.transform.gameobject.layer);
             endPosition = hit.point;
         }
 

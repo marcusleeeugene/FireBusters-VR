@@ -9,14 +9,14 @@ public class ControllerManager : MonoBehaviour
     public SteamVR_Action_Boolean grabAction;
     public SteamVR_Action_Boolean teleportAction;
     public SteamVR_Action_Boolean showInstructionAction;
-    public SteamVR_Action_Boolean startMenuAction;
+    // public SteamVR_Action_Boolean startMenuAction;
 
     private SteamVR_Input_Sources handType;
     private SteamVR_Behaviour_Pose controllerPose;
     private ControllerGrabScript grabber;
     private ControllerTeleportScript teleporter;
     private ControllerInstructionScript instruction;
-    private ControllerStartMenu startMenu;
+    // private ControllerStartMenu startMenu;
 
     private GameObject objectInHand;
 
@@ -28,7 +28,7 @@ public class ControllerManager : MonoBehaviour
         grabber = GetComponent<ControllerGrabScript>();
         teleporter = GetComponent<ControllerTeleportScript>();
         instruction = GetComponent<ControllerInstructionScript>();
-        startMenu = GetComponent<ControllerStartMenu>();
+        // startMenu = GetComponent<ControllerStartMenu>();
     }
 
     // Update is called once per frame
@@ -38,9 +38,19 @@ public class ControllerManager : MonoBehaviour
         {
             if (grabAction.GetLastStateDown(handType))
             {
-                if (grabber.IsCollidingObject())
+                if (grabber.IsGrabbing())
+                {
+                    objectInHand = null;
+                    grabber.ReleaseObject(controllerPose);
+                }
+                else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
+                    GrabToSpawn gts = grabber.GetCollidingObject().GetComponent<GrabToSpawn>();
+                    if (gts)
+                    {
+                        gts.Spawn(grabber.transform.position);
+                    }
                     objectInHand = grabber.GrabObject();
                 }
             }
@@ -65,7 +75,7 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (instruction) 
+        if (instruction)
         {
             if (showInstructionAction.GetState(handType))
             {
@@ -73,13 +83,13 @@ public class ControllerManager : MonoBehaviour
             }
         }
 
-        if (startMenu)
-        {
-            if (startMenuAction.GetState(handType)){
-                startMenu.TryLaser(controllerPose);
-            } else {
-                startMenu.DisableLaser();
-            }
-        }
+        // if (startMenu)
+        // {
+        //     if (startMenuAction.GetState(handType)){
+        //         startMenu.TryLaser(controllerPose);
+        //     } else {
+        //         startMenu.DisableLaser();
+        //     }
+        // }
     }
 }
