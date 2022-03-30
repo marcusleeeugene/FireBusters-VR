@@ -6,7 +6,7 @@ using UnityEngine.Video;
 
 public class CompleteGame : MonoBehaviour
 {
-    private string handTag = "Hand";
+    private string gameControllerTag = "GameController";
     private string startingScene = "Start Point";
     public GameObject endGameScene;
     private VideoPlayer videoPlayer;
@@ -26,7 +26,7 @@ public class CompleteGame : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag)
+        if (other.tag == gameControllerTag)
         {
             endGameScene.SetActive(true);
             AudioListener.pause = true; 

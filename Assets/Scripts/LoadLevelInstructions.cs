@@ -7,10 +7,13 @@ using UnityEngine;
 public class LoadLevelInstructions : MonoBehaviour
 {
     public Text instruction;
-    private const string Level01Name = "FireClassLevel";
-    private const string Level05Name = "FireEscapeLevel";
+    private const string FireClassLevel = "FireClassLevel";
+    private const string FireEscapeLevel = "FireEscapeLevel";
+    private const string SandboxLevel = "SandboxLevel";
     private string fireEscapeLevelInstructions = "FireEscapeLevel-instructions";
     private string fireClassLevelInstructions = "FireClassLevel-instructions";
+    private string sandboxLevelInstructions = "SandboxLevel-instructions";
+    private string gameInstructions = "Game-instructions";
 
     // Start is called before the first frame update
     void Start()
@@ -30,15 +33,17 @@ public class LoadLevelInstructions : MonoBehaviour
         string instructionToLoad = "";
         switch(currentScene) 
         {
-            case Level01Name:
+            case FireClassLevel:
                 instructionToLoad = fireClassLevelInstructions;
-                Debug.Log("OI!");
                 break;
-            case Level05Name:
+            case SandboxLevel:
+                instructionToLoad = sandboxLevelInstructions;
+                break;
+            case FireEscapeLevel:
                 instructionToLoad = fireEscapeLevelInstructions;
-                Debug.Log("OI!");
                 break;
             default:
+                instructionToLoad = gameInstructions;
                 break;
         }
 
