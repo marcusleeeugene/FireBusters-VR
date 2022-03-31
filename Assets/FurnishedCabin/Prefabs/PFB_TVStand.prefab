@@ -197,7 +197,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4000011810544638}
   - component: {fileID: 95000014167001920}
-  - component: {fileID: 114000011518356856}
   - component: {fileID: 65000010569510288}
   m_Layer: 0
   m_Name: PFB_TVStand
@@ -242,19 +241,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000011518356856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010719739470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3174ace299f2b4c80baf44a6283329cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reachRange: 1.8
 --- !u!65 &65000010569510288
 BoxCollider:
   m_ObjectHideFlags: 0
