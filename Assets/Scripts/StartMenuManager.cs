@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Valve.VR;
 
 public class StartMenuManager : MonoBehaviour
 {
     public GameObject canvasBase;
-
     public Panel currentPanel;
+    public AudioSource soothingMusicAudio;
+    public GameObject UIPointer;
+
     private Canvas canvas;
     private List<Panel> panelHistory = new List<Panel>();
     private Toggle toggle;
@@ -18,7 +21,12 @@ public class StartMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
+            StartGame();
+            return;
+        }
         SetupPanels();
+        soothingMusicAudio.Play();
     }
 
     // Update is called once per frame
@@ -56,11 +64,19 @@ public class StartMenuManager : MonoBehaviour
         currentPanel.Show();
     }
 
-    public void StartGame(GameObject UIPointer){
+    public void StartGame(){
         canvas.enabled = false;
         UIPointer.SetActive(false);
         canvasBase.SetActive(false);
 
+    }
+
+    public void QuitGame(){
+        if (Application.isEditor){
+            UnityEditor.EditorApplication.isPlaying = false;
+        } else{
+            Application.Quit();
+        }
     }
 
     public void EnableSound(Toggle toggle){
@@ -72,7 +88,8 @@ public class StartMenuManager : MonoBehaviour
     }
 
     public void AdjustVolume(Slider slider){
-        // song.volume = slider.value;
+        soothingMusicAudio.volume = slider.value;
+        PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume);
         Debug.Log("Current Volume is " +  slider.value.ToString());
     }
 }

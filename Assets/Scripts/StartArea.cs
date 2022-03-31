@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class StartArea : MonoBehaviour
 {
@@ -12,17 +13,48 @@ public class StartArea : MonoBehaviour
        
     // Start is called before the first frame update
     void Start(){
+        UpdateLevelProgress();
         levelCompleted[0] = true;
-        levelCompleted[3] = true;
+        //levelCompleted[3] = true;
         hideEntryPoints();
         rightController.GetComponent<ControllerManager>().enabled = false;
-        // displayEntryPoints();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void UpdateLevelProgress(){
+        string[] levelNames = new string[4];
+        levelNames[0] = "Level1";
+        levelNames[1] = "Level2";
+        levelNames[2] = "Level3";
+        levelNames[3] = "Level4";
+        foreach(string lvlName in levelNames){
+            CheckLevelProgress(lvlName);
+        }
+    }
+
+    // Function to check if the PlayerPrefs has the level completion progress, else set as 0. Only exception is level 1 which is set to unlocked.
+    private void CheckLevelProgress(string lvlName){
+        if (PlayerPrefs.HasKey(lvlName)){
+            levelCompleted[0] = IntToBoolean(PlayerPrefs.GetInt(lvlName));
+        } else if (String.Equals(lvlName, "Level1")){
+            PlayerPrefs.SetInt(lvlName, 1);
+        } else {
+            PlayerPrefs.SetInt(lvlName, 0);
+        }
+    }
+
+    // Function to convert 1 or 0 into true or false
+    private bool IntToBoolean(int value){
+        if (value == 1){
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public void displayEntryPoints(){
