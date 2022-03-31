@@ -25,7 +25,7 @@ public class StartArea : MonoBehaviour
         
     }
 
-    private async void UpdateLevelProgress(){
+    private void UpdateLevelProgress(){
         string[] levelNames = new string[4];
         levelNames[0] = "Level1";
         levelNames[1] = "Level2";
