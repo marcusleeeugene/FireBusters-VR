@@ -24,18 +24,22 @@ public class PortalEntry : MonoBehaviour
             portalTeleportAudio.Play();
             int levelNumber =  transform.GetSiblingIndex() + 1;     // 1 <= levelNumber <= 4
             Debug.Log(string.Format("Going to level {0} now!!!", levelNumber));
+
+            // Update PlayerPrefs if Player has seen the UI already.
+            PlayerPrefs.SetInt("HasSeenUI", 1);
+
             switch (levelNumber){
                 case 1:
                     SceneManager.LoadScene("FireClassLevel");
                     break;
                 case 2:
-                    // SceneManager.LoadScene("Level02");
-                    break;
-                case 3:
                     SceneManager.LoadScene("SandboxLevel");
                     break;
-                case 4:
+                case 3:
                     SceneManager.LoadScene("FireEscapeLevel");
+                    break;
+                case 4:
+                    // SceneManager.LoadScene("Level02");
                     break;
             }
             
