@@ -609,19 +609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c30a2316e98e1dc4b97e432a1301f85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1533562409216677208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4721097813522395259}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.119003296, y: 0.16459656, z: 0.17881775}
-  m_Center: {x: 0.13417053, y: -0.018316269, z: -0.15483856}
 --- !u!1 &4721805351003860506
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,13 +963,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabAction:
-    actionPath: /actions/default/in/Grab
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   teleportAction:
     actionPath: /actions/default/in/Teleport
     needsReinit: 0
   showInstructionAction:
-    actionPath: 
+    actionPath: /actions/default/in/Instructions
     needsReinit: 0
 --- !u!65 &8140687938432198139
 BoxCollider:
@@ -1156,7 +1143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4721805352530242726
 Transform:
   m_ObjectHideFlags: 0
@@ -1184,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: -1
-  modelOverride: 
+  modelOverride: '{system}vr_glove'
   shader: {fileID: 0}
   verbose: 0
   createComponents: 1
@@ -1410,7 +1397,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Teleport
     needsReinit: 0
   showInstructionAction:
-    actionPath: /actions/buggy/in/Brake
+    actionPath: /actions/default/in/Instructions
     needsReinit: 0
 --- !u!114 &7441441173015239298
 MonoBehaviour:
@@ -1830,7 +1817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_TagString
@@ -1838,11 +1825,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011739145180, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.165
+      value: -0.197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011739145180, guid: 057574477c20401448aba7c848873712, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.475
       objectReference: {fileID: 0}
     - target: {fileID: 4000011739145180, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0679
+      value: -0.178
       objectReference: {fileID: 0}
     - target: {fileID: 4000013477813392, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_RootOrder
@@ -1888,13 +1879,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010631258134, guid: 057574477c20401448aba7c848873712, type: 3}
+      propertyPath: overridePreviewLeftHandPrefab
+      value: 
+      objectReference: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf, type: 3}
+    - target: {fileID: 114000010631258134, guid: 057574477c20401448aba7c848873712, type: 3}
+      propertyPath: overridePreviewRightHandPrefab
+      value: 
+      objectReference: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 057574477c20401448aba7c848873712, type: 3}
---- !u!1 &4721097813522395259 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
-  m_PrefabInstance: {fileID: 4721805352324768121}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4722320041640082921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013477813392, guid: 057574477c20401448aba7c848873712, type: 3}
