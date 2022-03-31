@@ -10,7 +10,6 @@ public class ControllerManager : MonoBehaviour
     public SteamVR_Action_Boolean teleportAction;
     public SteamVR_Action_Boolean showInstructionAction;
     // public SteamVR_Action_Boolean startMenuAction;
-    public SteamVR_Action_Boolean shootAction;
 
     private SteamVR_Input_Sources handType;
     private SteamVR_Behaviour_Pose controllerPose;
@@ -18,7 +17,6 @@ public class ControllerManager : MonoBehaviour
     private ControllerTeleportScript teleporter;
     private ControllerInstructionScript instruction;
     // private ControllerStartMenu startMenu;
-    private ControllerShootScript shooter;
 
     private GameObject objectInHand;
 
@@ -31,7 +29,6 @@ public class ControllerManager : MonoBehaviour
         teleporter = GetComponent<ControllerTeleportScript>();
         instruction = GetComponent<ControllerInstructionScript>();
         // startMenu = GetComponent<ControllerStartMenu>();
-        shooter = GetComponent<ControllerShootScript>();
     }
 
     // Update is called once per frame
@@ -63,6 +60,7 @@ public class ControllerManager : MonoBehaviour
         {
             if (teleportAction.GetState(handType))
             {
+            //     Debug.Log("hi");
                 teleporter.TryLaser(controllerPose);
             }
             else
@@ -72,6 +70,7 @@ public class ControllerManager : MonoBehaviour
 
             if (teleportAction.GetStateUp(handType) && teleporter.ShouldTeleport())
             {
+                // Debug.Log("bye");
                 teleporter.Teleport();
             }
         }
@@ -81,19 +80,6 @@ public class ControllerManager : MonoBehaviour
             if (showInstructionAction.GetState(handType))
             {
                 instruction.ToggleInstruction();
-            }
-        }
-
-        if (shooter)
-        {
-            if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.ShootExtinguisher(objectInHand);
-            }
-
-            if (shootAction.GetStateUp(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.Stop(objectInHand);
             }
         }
 
