@@ -63,13 +63,12 @@ public class ControllerTeleportScript : MonoBehaviour
         Vector3 difference = cameraRigTransform.position - headTransform.position;
         difference.y = 0;
         // difference.y = Math.Min(headTransform.position.y-cameraRigTransform.position.y, 0);
-        hitPoint.y = cameraRigTransform.position.y;
-        cameraRigTransform.position = hitPoint; // + difference
+        // hitPoint.y = cameraRigTransform.position.y;
+        cameraRigTransform.position = hitPoint + difference;
     }
 
     private void ShowLaser(RaycastHit hit, SteamVR_Behaviour_Pose controllerPose)
     {
-        // Debug.Log("SHOWING!");
         laser.SetActive(true);
         reticle.SetActive(true);
         teleportReticleTransform.position = hitPoint + teleportReticleOffset;
