@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class ReturnPortal : MonoBehaviour
 {
     private string handTag = "Hand";
-    private bool isTriggered = false;
     public GameObject cameraRig;
     private AudioSource openDoorAudio;
     private string startingScene = "Start Point";
@@ -25,11 +24,11 @@ public class ReturnPortal : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag && !isTriggered)
+        if (other.tag == handTag)
         {
+            Debug.Log("touch door");
             cameraRig.transform.Translate(Vector3.forward * 2);
             openDoorAudio.Play();
-            isTriggered = true;
             SceneManager.LoadScene(startingScene);
         }
     }

@@ -70,14 +70,13 @@ public class ControllerManager : MonoBehaviour
 
             if (teleportAction.GetStateUp(handType) && teleporter.ShouldTeleport())
             {
-                // Debug.Log("bye");
                 teleporter.Teleport();
             }
         }
 
         if (instruction)
         {
-            if (showInstructionAction.GetState(handType))
+            if (showInstructionAction.GetLastStateUp(handType) || showInstructionAction.GetLastStateDown(handType))
             {
                 instruction.ToggleInstruction();
             }
