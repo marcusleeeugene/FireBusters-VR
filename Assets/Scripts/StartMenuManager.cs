@@ -21,6 +21,7 @@ public class StartMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SetVolume();
         if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
             StartGame();
             return;
@@ -84,6 +85,14 @@ public class StartMenuManager : MonoBehaviour
             Debug.Log("Help me integrate this part!!! Sound enabled...");        
         } else {
             Debug.Log("Help me integrate this part!!! Sound disabled...");
+        }
+    }
+
+    private void SetVolume(){
+        if (!PlayerPrefs.HasKey("SoundVolume")){
+            PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume); 
+        } else {
+            soothingMusicAudio.volume = PlayerPrefs.GetFloat("SoundVolume");
         }
     }
 
