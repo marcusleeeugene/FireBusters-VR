@@ -1,0 +1,5 @@
+We aim to make fire safety training fun and interactive for students.
+Our game consists of 3 levels as follows:
+1. Fire class level to identify the correct fire extinguisher to extinguish different flammable objects.
+2. Sandbox level to experiment ways to start and put out fires.
+3. Fire Escape level with interactive scenarios to choose to leave the building safely.
