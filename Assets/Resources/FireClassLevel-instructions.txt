@@ -9,5 +9,6 @@ Class D: Dry Powder fire extinguisher -> Battery (Lithium/Potassium)
 Class E: Carbon Dioxide fire extinguisher -> Fridge (Electrical Appliance)
 
 
+During the game level, if the player puts out the fire with the correct fire extinguisher, the fire will disappear.
 
-
+If the player puts out the fire with the wrong fire extinguisher, the fire will remain and the wrong answer sound effect will be played.
