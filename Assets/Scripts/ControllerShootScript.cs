@@ -12,7 +12,7 @@ public class ControllerShootScript : MonoBehaviour
 
     public bool isExtinguisher(GameObject obj)
     {
-        return obj.GetComponent<Extinguisher>();
+        return obj.GetComponent<Extinguisher>() != null;
     }
 
     public void ShootExtinguisher(GameObject obj)

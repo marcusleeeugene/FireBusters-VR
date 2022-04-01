@@ -14,12 +14,11 @@ public class Extinguisher : MonoBehaviour
     public Type type;
     public Transform shootPoint;
     public GameObject fumes;
-    private ParticleSystem fumesPs;
 
     void Start()
     {
-        fumesPs = fumes.GetComponent<ParticleSystem>();
         Instantiate(fumes, shootPoint.position, shootPoint.rotation);
+        fumes.gameObject.SetActive(false);
     }
 
     public Type GetExtType()
@@ -28,17 +27,16 @@ public class Extinguisher : MonoBehaviour
     }
 
     public void Shoot()
-    {
-        fumesPs.Stop();
+    { 
         fumes.transform.position = shootPoint.position;
         fumes.transform.rotation = shootPoint.rotation;
-        var main = fumesPs.main;
-        main.duration = 1f;
-        fumesPs.Play();
+        // var main = fumesPs.main;
+        // main.duration = 1f;
+        fumes.gameObject.SetActive(true);
     }
 
     public void Stop()
     {
-        fumesPs.Stop();
+        fumes.gameObject.SetActive(false);
     }
 }
