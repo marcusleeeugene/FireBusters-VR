@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 4721805352531568258}
   - component: {fileID: 4721805352540209122}
   - component: {fileID: 1390913962288390599}
-  - component: {fileID: 3412950094456940366}
+  - component: {fileID: 4606541124872965178}
   m_Layer: 0
   m_Name: '[CameraRig]'
   m_TagString: GameController
@@ -1353,9 +1353,9 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 8, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3412950094456940366
+  m_Size: {x: 0.2645359, y: 1.4135697, z: 0.36320114}
+  m_Center: {x: 0, y: 1.7057866, z: 0}
+--- !u!54 &4606541124872965178
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2057,6 +2057,10 @@ PrefabInstance:
     - target: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_Name
       value: vr_glove_left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
+      propertyPath: m_TagString
+      value: Hand
       objectReference: {fileID: 0}
     - target: {fileID: 4000013477813392, guid: 057574477c20401448aba7c848873712, type: 3}
       propertyPath: m_RootOrder
