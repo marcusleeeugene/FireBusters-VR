@@ -21,8 +21,10 @@ public class StartMenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // PlayerPrefs.SetInt("HasSeenUI", 0);
         SetVolume();
         if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
+            Debug.Log("Starting game..." + PlayerPrefs.GetInt("HasSeenUI"));
             StartGame();
             return;
         }
