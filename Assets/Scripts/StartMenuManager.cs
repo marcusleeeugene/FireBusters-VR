@@ -24,7 +24,7 @@ public class StartMenuManager : MonoBehaviour
         // PlayerPrefs.SetInt("HasSeenUI", 0);
         SetVolume();
         if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
-            Debug.Log("Starting game..." + PlayerPrefs.HasKey("HasSeenUI"));
+            Debug.Log("Starting game..." + PlayerPrefs.GetInt("HasSeenUI"));
             StartGame();
             return;
         }
