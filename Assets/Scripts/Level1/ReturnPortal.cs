@@ -23,7 +23,6 @@ public class ReturnPortal : MonoBehaviour
         // Set outline of door to red color if never put out all flammable objects
         outline.OutlineColor = Color.red;
         openDoorAudio = GetComponent<AudioSource>();
-
     }
 
     // Update is called once per frame
@@ -48,6 +47,7 @@ public class ReturnPortal : MonoBehaviour
             cameraRig.transform.Translate(Vector3.forward * 2);
             openDoorAudio.Play();
             SceneManager.LoadScene(startingScene);
+            PlayerPrefs.SetInt("Level2", 1);
         }
     }
 }

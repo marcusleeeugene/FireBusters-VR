@@ -16,6 +16,7 @@ public class CompleteGame : MonoBehaviour
     {
         videoPlayer = endGameScene.GetComponent<VideoPlayer>();
         videoPlayer.loopPointReached += EndVideo;
+        PlayerPrefs.SetInt("HasSeenUI", 0);
     }
 
     // Update is called once per frame
