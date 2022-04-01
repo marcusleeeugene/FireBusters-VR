@@ -16,8 +16,9 @@ public class PortalEntry : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        portalTeleportAudio.volume = PlayerPrefs.GetFloat("SoundVolume");
+
     }
+    
     void OnTriggerEnter(Collider other) {
         if(other.gameObject.CompareTag("GameController") || other.gameObject.CompareTag("Hand"))
         {

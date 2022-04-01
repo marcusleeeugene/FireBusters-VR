@@ -16,11 +16,7 @@ TagManager:
   - CarbonDioxide
   - Water
   - Powder
-  - FireAerosolCan
-  - FireBattery
-  - FireOilCan
-  - FireChair
-  - FireFridge
+  - Correct
   layers:
   - Default
   - TransparentFX

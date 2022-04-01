@@ -93,9 +93,7 @@ public class StartMenuManager : MonoBehaviour
     private void SetVolume(){
         if (!PlayerPrefs.HasKey("SoundVolume")){
             PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume); 
-        } else {
-            soothingMusicAudio.volume = PlayerPrefs.GetFloat("SoundVolume");
-        }
+        } 
     }
 
     public void AdjustVolume(Slider slider){
