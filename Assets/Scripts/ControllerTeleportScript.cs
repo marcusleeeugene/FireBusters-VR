@@ -37,7 +37,7 @@ public class ControllerTeleportScript : MonoBehaviour
 
         if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit, 100, teleportMask))
         {
-            if(hit.transform.tag == "Ground") {
+            if(hit.transform.tag == "Ground"){  // || hit.transform.tag == "UnlockedLevel") {
                 hitPoint = hit.point;
                 ShowLaser(hit, controllerPose);
             }
@@ -66,8 +66,8 @@ public class ControllerTeleportScript : MonoBehaviour
 
         // difference.y = Math.Min(headTransform.position.y-cameraRigTransform.position.y, 0);
         // hitPoint.y = cameraRigTransform.position.y;
-        hitPoint.position.y += 1.6f;
-        cameraRigTransform.position = hitPoint.position;
+        // hitPoint.y += 0f;
+        cameraRigTransform.position = hitPoint;
     }
 
     private void ShowLaser(RaycastHit hit, SteamVR_Behaviour_Pose controllerPose)

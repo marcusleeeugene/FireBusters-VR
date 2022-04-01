@@ -30,6 +30,7 @@ public class ReturnPortal : MonoBehaviour
             cameraRig.transform.Translate(Vector3.forward * 2);
             openDoorAudio.Play();
             SceneManager.LoadScene(startingScene);
+            PlayerPrefs.SetInt("Level2", 1);
         }
     }
 }

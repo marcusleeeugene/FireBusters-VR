@@ -15,5 +15,6 @@ public class ExitSandbox : MonoBehaviour
     {
         if (collider.tag == "Hand")
             SceneManager.LoadScene("Start Point");
+            PlayerPrefs.SetInt("Level3", 1);
     }
 }
