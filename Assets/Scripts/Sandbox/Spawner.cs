@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     [Tooltip("Required if spawnOnHand is false.")]
     public Transform placeToSpawn;
 
-    public void Spawn()
+    public virtual void Spawn()
     {
         if (spawnOnHand) {
             Instantiate(objToSpawn, transform.position + Vector3.up, objToSpawn.transform.rotation);
@@ -18,9 +18,9 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Hand")
+        if (other.gameObject.tag == "Hand")
         {
             Spawn();
         }

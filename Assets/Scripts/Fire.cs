@@ -42,19 +42,11 @@ public class Fire : MonoBehaviour
     public void Extinguish()
     {
         audioSource.Stop();
-        ps.Stop();
+        // ps.Stop();
+        gameObject.SetActive(false);
         wrongCross.SetActive(false);
         audioSource.PlayOneShot(correctFireExtinguisher);
         correctTick.SetActive(true);
-        // if (!isExtinguishing)
-        // {
-        //     isExtinguishing = true;
-        //     gameObject.SetActive(false);
-        //     audioSource.Stop();
-        //     // StartCoroutine(FadingExtinguish());
-        //     isExtinguishing = false;
-        // }
-        
     }
 
     public Type GetFireType()
