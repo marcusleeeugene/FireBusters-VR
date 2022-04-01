@@ -22,6 +22,10 @@ public class Flammable : MonoBehaviour
 
     void Update()
     {
+        if (fireRef && !fireRef.GetComponent<ParticleSystem>().isPlaying)
+        {
+            onFire = false;
+        }
         if (onFire)
         {
             fireRef.transform.position = gameObject.transform.position;
@@ -39,6 +43,7 @@ public class Flammable : MonoBehaviour
             else
             {
                 fireRef.SetActive(true);
+                fireRef.GetComponent<ParticleSystem>().Play();
             }
             onFire = true;
         }
