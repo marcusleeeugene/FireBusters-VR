@@ -1769,7 +1769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6418850614371301158, guid: 99ecf38f622c28c4f8840def841ceee6, type: 3}
       propertyPath: m_TagString
-      value: Grabbable
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6418850614371301159, guid: 99ecf38f622c28c4f8840def841ceee6, type: 3}
       propertyPath: m_RootOrder
@@ -1879,7 +1879,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1369895, y: 0.13674036, z: 0.13761878}
   m_Center: {x: -0.08889575, y: -0.019999996, z: -0.030000001}
---- !u!43 &1015676555
+--- !u!43 &1014895361
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3124,6 +3124,41 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!21 &1604084553
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &1622323676
 GameObject:
   m_ObjectHideFlags: 0
@@ -4117,11 +4152,11 @@ PrefabInstance:
     - target: {fileID: 4721805352531568258, guid: d784b31c9b5834e9bac3ee6eae257acc, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1015676555}
+      objectReference: {fileID: 1014895361}
     - target: {fileID: 4721805352532633350, guid: d784b31c9b5834e9bac3ee6eae257acc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2125722398}
+      objectReference: {fileID: 1604084553}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d784b31c9b5834e9bac3ee6eae257acc, type: 3}
 --- !u!1 &2071494461
@@ -4298,41 +4333,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!21 &2125722398
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!4 &158469586089859316
 Transform:
   m_ObjectHideFlags: 0
@@ -5062,7 +5062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323028429734327680, guid: 77595f230957c3c48bfa0231f91b8c1b, type: 3}
       propertyPath: m_TagString
-      value: Grabbable
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4538256214339905590, guid: 77595f230957c3c48bfa0231f91b8c1b, type: 3}
       propertyPath: m_RootOrder
