@@ -22,7 +22,6 @@ public class Fire : MonoBehaviour
     public AudioClip wrongFireExtinguisher;
     public AudioClip correctFireExtinguisher;
     private AudioSource audioSource;
-    private bool isExtinguishing = false;
     private ParticleSystem ps;
     public GameObject correctTick;
     public GameObject wrongCross;
@@ -41,15 +40,15 @@ public class Fire : MonoBehaviour
 
     public void Extinguish()
     {
-        audioSource.Stop();
         ps.Stop();
-        
+
         wrongCross.SetActive(false);
         correctTick.SetActive(true);
-        audioSource.PlayOneShot(correctFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
-        Debug.Log("Correct exting.... |||| " + PlayerPrefs.GetFloat("SoundVolume"));
-        
-        // gameObject.SetActive(false);
+        if (audioSource)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(correctFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+        }
     }
 
     public Type GetFireType()
@@ -70,7 +69,10 @@ public class Fire : MonoBehaviour
             } else
             {
                 wrongCross.SetActive(true);
-                audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+                if (audioSource)
+                {
+                    audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+                }
             }
         }
         Flammable flammableObj = collider.GetComponent<Flammable>();
