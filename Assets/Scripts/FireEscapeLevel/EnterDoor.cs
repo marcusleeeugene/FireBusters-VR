@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnterDoor : MonoBehaviour
 {
     private string handTag = "Hand";
-    private bool isTriggered = false;
     public GameObject cameraRig;
     public AudioSource openDoorAudio;
 
@@ -23,12 +22,10 @@ public class EnterDoor : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == handTag && !isTriggered)
+        if (other.tag == handTag)
         {
             cameraRig.transform.Translate(Vector3.forward * 2);
             openDoorAudio.Play();
-            isTriggered = true;
-
         }
     }
 }

@@ -20,9 +20,12 @@ public class Fire : MonoBehaviour
     // private float fadePerSecond = 0.3f;
     public AudioClip fireBurning;
     public AudioClip wrongFireExtinguisher;
+    public AudioClip correctFireExtinguisher;
     private AudioSource audioSource;
     private bool isExtinguishing = false;
     private ParticleSystem ps;
+    public GameObject correctTick;
+    public GameObject wrongCross;
 
     void Start()
     {
@@ -39,16 +42,11 @@ public class Fire : MonoBehaviour
     public void Extinguish()
     {
         audioSource.Stop();
-        ps.Stop();
-        // if (!isExtinguishing)
-        // {
-        //     isExtinguishing = true;
-        //     gameObject.SetActive(false);
-        //     audioSource.Stop();
-        //     // StartCoroutine(FadingExtinguish());
-        //     isExtinguishing = false;
-        // }
-        
+        // ps.Stop();
+        gameObject.SetActive(false);
+        wrongCross.SetActive(false);
+        audioSource.PlayOneShot(correctFireExtinguisher);
+        correctTick.SetActive(true);
     }
 
     public Type GetFireType()
@@ -62,11 +60,13 @@ public class Fire : MonoBehaviour
         if (extinguisher)
         {
             Extinguisher.Type extType = extinguisher.GetExtType();
+
             if ((int)type == (int)extType)
             {
                 Extinguish();
             } else
             {
+                wrongCross.SetActive(true);
                 audioSource.PlayOneShot(wrongFireExtinguisher);
             }
         }

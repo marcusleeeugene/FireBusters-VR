@@ -21,11 +21,12 @@ public class ControllerInstructionScript : MonoBehaviour
     }
 
     public void ToggleInstruction() {
+        showInstruction = !showInstruction;
+
         if(showInstruction) {
             instructionCanvas.SetActive(true);
         } else {
             instructionCanvas.SetActive(false);
         }
-        showInstruction = !showInstruction;
     }
 }
