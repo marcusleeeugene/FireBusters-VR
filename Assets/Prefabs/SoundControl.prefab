@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4862856449941711916}
   - component: {fileID: 1213251444230350737}
-  - component: {fileID: 4552728043565517300}
   m_Layer: 0
   m_Name: SoundControl
   m_TagString: Untagged
@@ -44,11 +43,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7915241d324ce04499bd083bf1d996a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!81 &4552728043565517300
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3283162181415925383}
-  m_Enabled: 1
