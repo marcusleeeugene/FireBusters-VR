@@ -17,12 +17,13 @@ public class StartMenuManager : MonoBehaviour
     
     void Awake(){
         canvas = GetComponent<Canvas>();
+        SetVolume();
     }
     // Start is called before the first frame update
     void Start()
     {
+        // PlayerPrefs.SetFloat("SoundVolume", 0.5f);
         // PlayerPrefs.SetInt("HasSeenUI", 0);
-        SetVolume();
         if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
             Debug.Log("Starting game..." + PlayerPrefs.GetInt("HasSeenUI"));
             StartGame();
@@ -97,8 +98,9 @@ public class StartMenuManager : MonoBehaviour
     }
 
     public void AdjustVolume(Slider slider){
-        soothingMusicAudio.volume = slider.value;
-        PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume);
-        Debug.Log("Current Volume is " +  slider.value.ToString());
+        // soothingMusicAudio.volume = slider.value;
+        // PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume);
+        // Debug.Log("Current Volume is " +  slider.value.ToString());
+        PlayerPrefs.SetFloat("SoundVolume", slider.value);
     }
 }
