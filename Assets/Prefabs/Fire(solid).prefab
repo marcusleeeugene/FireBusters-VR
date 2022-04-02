@@ -4893,6 +4893,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  fireBurning: {fileID: 0}
+  wrongFireExtinguisher: {fileID: 0}
+  correctFireExtinguisher: {fileID: 0}
+  correctTick: {fileID: 0}
+  wrongCross: {fileID: 0}
 --- !u!65 &-8647238063331734583
 BoxCollider:
   m_ObjectHideFlags: 0

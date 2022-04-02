@@ -5003,6 +5003,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
+  fireBurning: {fileID: 0}
+  wrongFireExtinguisher: {fileID: 0}
+  correctFireExtinguisher: {fileID: 0}
+  correctTick: {fileID: 0}
+  wrongCross: {fileID: 0}
 --- !u!82 &9163537593026444494
 AudioSource:
   m_ObjectHideFlags: 0

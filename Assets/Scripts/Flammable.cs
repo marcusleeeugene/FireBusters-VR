@@ -28,6 +28,8 @@ public class Flammable : MonoBehaviour
         }
         if (onFire)
         {
+            Debug.Log(fireRef);
+            Debug.Log(gameObject);
             fireRef.transform.position = gameObject.transform.position;
         }
     }
