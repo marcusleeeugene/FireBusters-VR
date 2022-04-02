@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterParticles : MonoBehaviour
+public class ExtinguisherParticles : MonoBehaviour
 {
+    public Extinguisher.Type type;
     private ParticleSystem ps;
 
     // Start is called before the first frame update
