@@ -17,8 +17,7 @@ public class Extinguisher : MonoBehaviour
 
     void Start()
     {
-        Instantiate(fumes, shootPoint.position, shootPoint.rotation);
-        fumes.gameObject.SetActive(false);
+        
     }
 
     public Type GetExtType()
@@ -27,7 +26,7 @@ public class Extinguisher : MonoBehaviour
     }
 
     public void Shoot()
-    { 
+    {
         fumes.transform.position = shootPoint.position;
         fumes.transform.rotation = shootPoint.rotation;
         // var main = fumesPs.main;
