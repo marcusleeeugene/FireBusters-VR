@@ -6,7 +6,7 @@ Welcome to  FireBusters VR!!! :fire_extinguisher: :fire:
 
 FireBusters VR is a virtual reality game that enhances enhance the fire safety education experience for you through a fun and immersive journey. By creating a safe space to experiment and play with various classes of fires, we hope to educate you about the different fire extinguishers available and increase your fire safety knowledge. Our open-world concept also enables you to freely interact with various fire extinguishers or even flammable objects to create huge fires.
 
-More information can be found on our [Poster](./Poster.jpg)
+More information can be found on our [Poster](./Poster.jpg).
 
 ## Description of game levels
 
