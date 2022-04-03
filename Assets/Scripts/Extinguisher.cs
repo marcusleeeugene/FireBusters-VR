@@ -17,13 +17,13 @@ public class Extinguisher : MonoBehaviour
 
     void Start()
     {
-        
+        fumes.GetComponent<Extinguisher>().type = type;
     }
 
-    // public Type GetExtType()
-    // {
-    //     return type;
-    // }
+    public Type GetExtType()
+    {
+        return type;
+    }
 
     public void Shoot()
     {
