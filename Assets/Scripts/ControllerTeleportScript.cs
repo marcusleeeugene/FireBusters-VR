@@ -22,6 +22,8 @@ public class ControllerTeleportScript : MonoBehaviour
     public LayerMask teleportMask;
     private bool shouldTeleport;
 
+    public float initialHeight;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -60,14 +62,15 @@ public class ControllerTeleportScript : MonoBehaviour
         teleportAudio.Play();
         shouldTeleport = false;
         reticle.SetActive(false);
-        // Vector3 difference = cameraRigTransform.position - headTransform.position;
-        // difference.y = 0;
-        // cameraRigTransform.position = hitPoint + difference;
+        Vector3 difference = cameraRigTransform.position - headTransform.position;
+        difference.y = initialHeight;
+        // difference.y = cameraRigTransform.position.y - hitPoint.y;
+        cameraRigTransform.position = hitPoint + difference;
 
         // difference.y = Math.Min(headTransform.position.y-cameraRigTransform.position.y, 0);
-        // hitPoint.y = cameraRigTransform.position.y;
         // hitPoint.y += 0f;
-        cameraRigTransform.position = hitPoint;
+        
+        // cameraRigTransform.position = hitPoint;
     }
 
     private void ShowLaser(RaycastHit hit, SteamVR_Behaviour_Pose controllerPose)

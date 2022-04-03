@@ -1,10 +1,6 @@
 Welcome to the Fire Class level.
 
-Objective: Learn different class of fires are handled by different fire extinguisher types.
-
-
 There are some flammable objects on fire in the house. 
-
 
 Your task will be to put out the fire on the flammable objects using the correct fire extinguisher.
 
