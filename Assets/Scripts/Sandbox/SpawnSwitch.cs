@@ -5,6 +5,7 @@ using System.Linq;
 
 public class SpawnSwitch : Spawner
 {
+
     public int spawnLimit = 1;
 
     private int spawnedNum = 0;
