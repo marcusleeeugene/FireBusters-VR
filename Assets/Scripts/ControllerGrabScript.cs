@@ -18,7 +18,7 @@ public class ControllerGrabScript : MonoBehaviour
 
     public GameObject GrabObject()
     {
-   //     grabAudio.Play();
+        grabAudio.Play();
 
         objectInHand = collidingObject;
         collidingObject = null;
