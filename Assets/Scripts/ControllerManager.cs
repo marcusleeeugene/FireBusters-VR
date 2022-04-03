@@ -49,7 +49,14 @@ public class ControllerManager : MonoBehaviour
                 else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
-                    objectInHand = grabber.GrabObject();
+                    if (grabber.IsExtinguisher()) 
+                    {
+                        objectInHand = grabber.GrabExtinguisher(controllerPose.transform.rotation);
+                    }
+                    else
+                    {
+                        objectInHand = grabber.GrabObject();
+                    }
                 }
             }
         }
@@ -81,6 +88,7 @@ public class ControllerManager : MonoBehaviour
 
         if (shooter)
         {
+            // objectInHand is dependent on grabber interaction
             if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
             {
                 shooter.ShootExtinguisher(objectInHand);

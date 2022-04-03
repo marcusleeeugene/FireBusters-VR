@@ -260,7 +260,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Instructions
     needsReinit: 0
   shootAction:
-    actionPath: 
+    actionPath: /actions/default/in/Shoot
     needsReinit: 0
 --- !u!114 &2987010267403458391
 MonoBehaviour:
@@ -275,6 +275,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabAudio: {fileID: 0}
+--- !u!114 &324821261108148263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841871389247209746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19be484322e122f408295b147f93fa54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1956642721316474115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,7 +1675,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Instructions
     needsReinit: 0
   shootAction:
-    actionPath: 
+    actionPath: /actions/default/in/Shoot
     needsReinit: 0
 --- !u!114 &7441441173015239298
 MonoBehaviour:
@@ -2134,14 +2146,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 057574477c20401448aba7c848873712, type: 3}
---- !u!4 &1838062630925962368 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000013477813392, guid: 057574477c20401448aba7c848873712, type: 3}
-  m_PrefabInstance: {fileID: 1840892273121955856}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1841871389247209746 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
+  m_PrefabInstance: {fileID: 1840892273121955856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1838062630925962368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000013477813392, guid: 057574477c20401448aba7c848873712, type: 3}
   m_PrefabInstance: {fileID: 1840892273121955856}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4721805352596728787

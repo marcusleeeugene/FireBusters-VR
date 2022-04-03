@@ -29,6 +29,12 @@ public class ControllerGrabScript : MonoBehaviour
         return objectInHand;
     }
 
+    public GameObject GrabExtinguisher(Quaternion handRotation)
+    {
+        collidingObject.transform.rotation = handRotation;
+        return GrabObject();
+    }
+
     public void ReleaseObject(SteamVR_Behaviour_Pose controllerPose)
     {
         if (GetComponent<FixedJoint>())
@@ -40,6 +46,11 @@ public class ControllerGrabScript : MonoBehaviour
             objectInHand.GetComponent<Rigidbody>().angularVelocity = controllerPose.GetAngularVelocity();
         }
         objectInHand = null;
+    }
+
+    public bool IsExtinguisher()
+    {
+        return IsCollidingObject() && collidingObject.GetComponent<Extinguisher>() != null;
     }
 
     public bool IsCollidingObject()

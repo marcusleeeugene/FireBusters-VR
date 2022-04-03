@@ -33,11 +33,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean GrabPinch
+        public virtual SteamVR_Action_Boolean Shoot
         {
             get
             {
-                return SteamVR_Actions.default_GrabPinch;
+                return SteamVR_Actions.default_Shoot;
             }
         }
         
