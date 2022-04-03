@@ -38,16 +38,27 @@ public class Fire : MonoBehaviour
         }
     }
 
-    public void Extinguish()
+    public void Extinguish(bool shouldExtinguish)
     {
-        ps.Stop();
-
-        wrongCross.SetActive(false);
-        correctTick.SetActive(true);
-        if (audioSource)
+        if (shouldExtinguish) 
         {
-            audioSource.Stop();
-            audioSource.PlayOneShot(correctFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+            ps.Stop();
+
+            wrongCross.SetActive(false);
+            correctTick.SetActive(true);
+            if (audioSource)
+            {
+                audioSource.Stop();
+                audioSource.PlayOneShot(correctFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+            }
+        }
+        else 
+        {
+            wrongCross.SetActive(true);
+            if (audioSource)
+            {
+                audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+            }
         }
     }
 
@@ -58,23 +69,6 @@ public class Fire : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        Extinguisher extinguisher = collider.GetComponent<Extinguisher>();
-        if (extinguisher)
-        {
-            Extinguisher.Type extType = extinguisher.GetExtType();
-
-            if ((int)type == (int)extType)
-            {
-                Extinguish();
-            } else
-            {
-                wrongCross.SetActive(true);
-                if (audioSource)
-                {
-                    audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
-                }
-            }
-        }
         Flammable flammableObj = collider.GetComponent<Flammable>();
         if (flammableObj)
         {

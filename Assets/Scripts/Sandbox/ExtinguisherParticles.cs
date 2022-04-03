@@ -13,12 +13,17 @@ public class ExtinguisherParticles : MonoBehaviour
         ps = GetComponent<ParticleSystem>();
     }
 
+    public Extinguisher.Type GetExtType()
+    {
+        return type;
+    }
+
     void OnParticleCollision(GameObject other)
     {
         Flammable flammableObj = other.GetComponent<Flammable>();
-        if (flammableObj && flammableObj.fireType==Fire.Type.Solid)
+        if (flammableObj)
         {
-            flammableObj.KillFire();
+            flammableObj.KillFire((int)flammableObj.fireType == (int)type);
         }
     }
 }

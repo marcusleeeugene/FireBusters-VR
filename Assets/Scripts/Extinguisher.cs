@@ -20,10 +20,10 @@ public class Extinguisher : MonoBehaviour
         
     }
 
-    public Type GetExtType()
-    {
-        return type;
-    }
+    // public Type GetExtType()
+    // {
+    //     return type;
+    // }
 
     public void Shoot()
     {

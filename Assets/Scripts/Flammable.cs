@@ -49,16 +49,16 @@ public class Flammable : MonoBehaviour
         }
     }
 
-    public void KillFire()
+    public void KillFire(bool shouldKill)
     {
         if (onFire)
         {
             Fire comp = fireRef.GetComponent<Fire>();
             if (comp)
             {
-                comp.Extinguish();
+                comp.Extinguish(shouldKill);
             }
-            onFire = false;
+            onFire = !shouldKill;
         }
     }
 }
