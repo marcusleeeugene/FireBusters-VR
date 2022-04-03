@@ -1,1 +1,5 @@
-SandBox level instructions
+Welcome to Sandbox Level.
+
+You can set things on fire and extinguish them. Remember that each fire extinguisher will only work on certain types of fires.
+
+Explore and have as much fun as you can!

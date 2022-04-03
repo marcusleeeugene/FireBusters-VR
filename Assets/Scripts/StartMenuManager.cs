@@ -17,12 +17,15 @@ public class StartMenuManager : MonoBehaviour
     
     void Awake(){
         canvas = GetComponent<Canvas>();
+        SetVolume();
     }
     // Start is called before the first frame update
     void Start()
     {
-        SetVolume();
+        // PlayerPrefs.SetFloat("SoundVolume", 0.5f);
+        // PlayerPrefs.SetInt("HasSeenUI", 0);
         if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
+            Debug.Log("Starting game..." + PlayerPrefs.GetInt("HasSeenUI"));
             StartGame();
             return;
         }
@@ -91,14 +94,13 @@ public class StartMenuManager : MonoBehaviour
     private void SetVolume(){
         if (!PlayerPrefs.HasKey("SoundVolume")){
             PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume); 
-        } else {
-            soothingMusicAudio.volume = PlayerPrefs.GetFloat("SoundVolume");
-        }
+        } 
     }
 
     public void AdjustVolume(Slider slider){
-        soothingMusicAudio.volume = slider.value;
-        PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume);
-        Debug.Log("Current Volume is " +  slider.value.ToString());
+        // soothingMusicAudio.volume = slider.value;
+        // PlayerPrefs.SetFloat("SoundVolume", soothingMusicAudio.volume);
+        // Debug.Log("Current Volume is " +  slider.value.ToString());
+        PlayerPrefs.SetFloat("SoundVolume", slider.value);
     }
 }

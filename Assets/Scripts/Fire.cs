@@ -22,7 +22,6 @@ public class Fire : MonoBehaviour
     public AudioClip wrongFireExtinguisher;
     public AudioClip correctFireExtinguisher;
     private AudioSource audioSource;
-    private bool isExtinguishing = false;
     private ParticleSystem ps;
     public GameObject correctTick;
     public GameObject wrongCross;
@@ -35,26 +34,46 @@ public class Fire : MonoBehaviour
         if (audioSource)
         {
             //audioSource.Play();
-            audioSource.PlayOneShot(fireBurning);
+            audioSource.PlayOneShot(fireBurning, PlayerPrefs.GetFloat("SoundVolume"));
+        }
+        if (wrongCross && correctTick)
+        {
+            wrongCross = Instantiate(wrongCross);
+            wrongCross.SetActive(false);
+            correctTick = Instantiate(correctTick);
+            correctTick.SetActive(false);
         }
     }
 
-    public void Extinguish()
+    public void Extinguish(bool shouldExtinguish)
     {
-        audioSource.Stop();
-        ps.Stop();
-        wrongCross.SetActive(false);
-        audioSource.PlayOneShot(correctFireExtinguisher);
-        correctTick.SetActive(true);
-        // if (!isExtinguishing)
-        // {
-        //     isExtinguishing = true;
-        //     gameObject.SetActive(false);
-        //     audioSource.Stop();
-        //     // StartCoroutine(FadingExtinguish());
-        //     isExtinguishing = false;
-        // }
-        
+        SetUiPosition();
+        if (shouldExtinguish) 
+        {
+            ps.Stop();
+
+            if (wrongCross && correctTick) 
+            {
+                wrongCross.SetActive(false);
+                correctTick.SetActive(true);
+            }
+            if (audioSource)
+            {
+                audioSource.Stop();
+                audioSource.PlayOneShot(correctFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+            }
+        }
+        else 
+        {
+            if (wrongCross)
+            {
+                wrongCross.SetActive(true);
+            }
+            if (audioSource)
+            {
+                audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
+            }
+        }
     }
 
     public Type GetFireType()
@@ -64,24 +83,23 @@ public class Fire : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        Extinguisher extinguisher = collider.GetComponent<Extinguisher>();
-        if (extinguisher)
-        {
-            Extinguisher.Type extType = extinguisher.GetExtType();
-
-            if ((int)type == (int)extType)
-            {
-                Extinguish();
-            } else
-            {
-                wrongCross.SetActive(true);
-                audioSource.PlayOneShot(wrongFireExtinguisher);
-            }
-        }
         Flammable flammableObj = collider.GetComponent<Flammable>();
         if (flammableObj)
         {
             flammableObj.LightFire();
+        }
+    }
+
+    private void SetUiPosition()
+    {
+        if (wrongCross && correctTick)
+        {
+            Debug.Log("wrong pos" + wrongCross.transform.position);
+            Debug.Log("corr pos" + correctTick.transform.position);
+            Debug.Log(gameObject);
+            Debug.Log(gameObject.transform.position);
+            correctTick.transform.position = gameObject.transform.position + Vector3.up;
+            wrongCross.transform.position = correctTick.transform.position;
         }
     }
 

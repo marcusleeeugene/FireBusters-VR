@@ -1,10 +1,9 @@
 {
-  "controller_type": "vive_cosmos_controller",
-  "description": "",
-  "name": "vive_cosmos_controller",
   "bindings": {
     "/actions/buggy": {
       "chords": [],
+      "poses": [],
+      "haptics": [],
       "sources": [
         {
           "path": "/user/hand/left/input/trigger",
@@ -87,12 +86,30 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [],
       "skeleton": []
     },
     "/actions/default": {
       "chords": [],
+      "poses": [
+        {
+          "output": "/actions/default/in/pose",
+          "path": "/user/hand/left/pose/raw"
+        },
+        {
+          "output": "/actions/default/in/pose",
+          "path": "/user/hand/right/pose/raw"
+        }
+      ],
+      "haptics": [
+        {
+          "output": "/actions/default/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/default/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
       "sources": [
         {
           "path": "/user/hand/left/input/trigger",
@@ -115,39 +132,12 @@
           }
         },
         {
-          "path": "/user/hand/left/input/trigger",
-          "mode": "button",
-          "parameters": {
-            "click_activate_threshold": "0.8",
-            "click_deactivate_threshold": "0.7",
-            "force_input": "value"
-          },
-          "inputs": {
-            "click": {
-              "output": "/actions/default/in/grabpinch"
-            }
-          }
-        },
-        {
           "path": "/user/hand/right/input/trigger",
           "mode": "button",
           "parameters": {},
           "inputs": {
             "click": {
               "output": "/actions/default/in/interactui"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/trigger",
-          "mode": "button",
-          "parameters": {
-            "click_activate_threshold": "0.8",
-            "click_deactivate_threshold": "0.7"
-          },
-          "inputs": {
-            "click": {
-              "output": "/actions/default/in/grabpinch"
             }
           }
         },
@@ -244,26 +234,6 @@
           }
         }
       ],
-      "poses": [
-        {
-          "output": "/actions/default/in/pose",
-          "path": "/user/hand/left/pose/raw"
-        },
-        {
-          "output": "/actions/default/in/pose",
-          "path": "/user/hand/right/pose/raw"
-        }
-      ],
-      "haptics": [
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/left/output/haptic"
-        },
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/right/output/haptic"
-        }
-      ],
       "skeleton": [
         {
           "output": "/actions/default/in/skeletonlefthand",
@@ -277,6 +247,8 @@
     },
     "/actions/platformer": {
       "chords": [],
+      "poses": [],
+      "haptics": [],
       "sources": [
         {
           "path": "/user/hand/left/input/joystick",
@@ -305,12 +277,21 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [],
       "skeleton": []
     },
     "/actions/htc_viu": {
       "chords": [],
+      "poses": [],
+      "haptics": [
+        {
+          "output": "/actions/htc_viu/out/viu_vib_01",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/htc_viu/out/viu_vib_01",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
       "sources": [
         {
           "path": "/user/hand/left/input/trigger",
@@ -497,17 +478,6 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [
-        {
-          "output": "/actions/htc_viu/out/viu_vib_01",
-          "path": "/user/hand/left/output/haptic"
-        },
-        {
-          "output": "/actions/htc_viu/out/viu_vib_01",
-          "path": "/user/hand/right/output/haptic"
-        }
-      ],
       "skeleton": [
         {
           "output": "/actions/htc_viu/in/viu_skeleton_left",
@@ -519,5 +489,8 @@
         }
       ]
     }
-  }
+  },
+  "controller_type": "vive_cosmos_controller",
+  "description": "",
+  "name": "vive_cosmos_controller"
 }

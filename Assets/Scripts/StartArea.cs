@@ -9,13 +9,17 @@ public class StartArea : MonoBehaviour
     public GameObject unlockedEntry;
     public GameObject rightController;
     
-    private bool[] levelCompleted = new bool[4];
+    private bool[] levelCompleted = new bool[3];
        
     // Start is called before the first frame update
     void Start(){
         UpdateLevelProgress();
         //levelCompleted[3] = true;
         hideEntryPoints();
+        if (PlayerPrefs.HasKey("HasSeenUI") && PlayerPrefs.GetInt("HasSeenUI") == 1){
+            displayEntryPoints();
+            return;
+        }
         rightController.GetComponent<ControllerManager>().enabled = false;
     }
 
@@ -26,11 +30,10 @@ public class StartArea : MonoBehaviour
     }
 
     private void UpdateLevelProgress(){
-        string[] levelNames = new string[4];
+        string[] levelNames = new string[3];
         levelNames[0] = "Level1";
         levelNames[1] = "Level2";
         levelNames[2] = "Level3";
-        levelNames[3] = "Level4";
         for (int i = 0; i < levelNames.Length; i++){
             CheckLevelProgress(levelNames[i], i);
         }

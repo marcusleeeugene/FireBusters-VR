@@ -22,6 +22,10 @@ public class Flammable : MonoBehaviour
 
     void Update()
     {
+        if (fireRef && !fireRef.GetComponent<ParticleSystem>().isPlaying)
+        {
+            onFire = false;
+        }
         if (onFire)
         {
             fireRef.transform.position = gameObject.transform.position;
@@ -39,21 +43,22 @@ public class Flammable : MonoBehaviour
             else
             {
                 fireRef.SetActive(true);
+                fireRef.GetComponent<ParticleSystem>().Play();
             }
             onFire = true;
         }
     }
 
-    public void KillFire()
+    public void KillFire(bool shouldKill)
     {
         if (onFire)
         {
             Fire comp = fireRef.GetComponent<Fire>();
             if (comp)
             {
-                comp.Extinguish();
+                comp.Extinguish(shouldKill);
             }
-            onFire = false;
+            onFire = !shouldKill;
         }
     }
 }

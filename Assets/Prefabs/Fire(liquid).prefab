@@ -9768,7 +9768,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f094874a0c940489d86d46e41c8366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
+  fireBurning: {fileID: 0}
+  wrongFireExtinguisher: {fileID: 0}
+  correctFireExtinguisher: {fileID: 0}
+  correctTick: {fileID: 0}
+  wrongCross: {fileID: 0}
 --- !u!65 &7695797572344495236
 BoxCollider:
   m_ObjectHideFlags: 0

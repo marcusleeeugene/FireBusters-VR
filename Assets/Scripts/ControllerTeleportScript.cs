@@ -22,6 +22,8 @@ public class ControllerTeleportScript : MonoBehaviour
     public LayerMask teleportMask;
     private bool shouldTeleport;
 
+    public float initialHeight;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +39,7 @@ public class ControllerTeleportScript : MonoBehaviour
 
         if (Physics.Raycast(controllerPose.transform.position, transform.forward, out hit, 100, teleportMask))
         {
-            if(hit.transform.tag == "Ground") {
+            if(hit.transform.tag == "Ground"){  // || hit.transform.tag == "UnlockedLevel") {
                 hitPoint = hit.point;
                 ShowLaser(hit, controllerPose);
             }
@@ -61,15 +63,18 @@ public class ControllerTeleportScript : MonoBehaviour
         shouldTeleport = false;
         reticle.SetActive(false);
         Vector3 difference = cameraRigTransform.position - headTransform.position;
-        difference.y = 0;
+        difference.y = initialHeight;
+        // difference.y = cameraRigTransform.position.y - hitPoint.y;
+        cameraRigTransform.position = hitPoint + difference;
+
         // difference.y = Math.Min(headTransform.position.y-cameraRigTransform.position.y, 0);
-        hitPoint.y = cameraRigTransform.position.y;
-        cameraRigTransform.position = hitPoint; // + difference
+        // hitPoint.y += 0f;
+        
+        // cameraRigTransform.position = hitPoint;
     }
 
     private void ShowLaser(RaycastHit hit, SteamVR_Behaviour_Pose controllerPose)
     {
-        // Debug.Log("SHOWING!");
         laser.SetActive(true);
         reticle.SetActive(true);
         teleportReticleTransform.position = hitPoint + teleportReticleOffset;

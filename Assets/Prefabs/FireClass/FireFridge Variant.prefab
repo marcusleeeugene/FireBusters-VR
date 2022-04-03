@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8094386490381665152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9661355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31578434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.2942157
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608104730409736282, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: wrongCross
+      value: 
+      objectReference: {fileID: 5185938609096607893, guid: f1be74eb4b25f423981c4bea64f27f8f, type: 3}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: correctTick
+      value: 
+      objectReference: {fileID: 8839057204052448650, guid: 27dc763e4f889434e8149974ee5de648, type: 3}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: fireBurning
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e9960f3978394aa5bbcd7b7ce250f63, type: 3}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: wrongFireExtinguisher
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d613e6637b2c4c038c802ca78b051e8, type: 3}
+    - target: {fileID: 4709113622401261928, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: correctFireExtinguisher
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f6f994663e0243019284618b2c73369, type: 3}
+    - target: {fileID: 4709113622401261931, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_Name
+      value: FireFridge Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709113622401261931, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918802, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: MaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918802, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e9960f3978394aa5bbcd7b7ce250f63, type: 3}
+    - target: {fileID: 4939295777230918802, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918803, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918803, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918803, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939295777230918803, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: m_Center.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163537593026444494, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: MaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163537593026444494, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9163537593026444494, guid: d330c52c4b30cac488b18ab520515149, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d330c52c4b30cac488b18ab520515149, type: 3}

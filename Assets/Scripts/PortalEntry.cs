@@ -16,16 +16,18 @@ public class PortalEntry : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+    
     void OnTriggerEnter(Collider other) {
-        if(other.gameObject.CompareTag("GameController"))
+        if(other.gameObject.CompareTag("GameController") || other.gameObject.CompareTag("Hand"))
         {
             portalTeleportAudio.Play();
             int levelNumber =  transform.GetSiblingIndex() + 1;     // 1 <= levelNumber <= 4
             Debug.Log(string.Format("Going to level {0} now!!!", levelNumber));
 
             // Update PlayerPrefs if Player has seen the UI already.
+            Debug.Log("portalTeleportAudio: " + portalTeleportAudio.volume);
             PlayerPrefs.SetInt("HasSeenUI", 1);
 
             switch (levelNumber){
@@ -37,9 +39,6 @@ public class PortalEntry : MonoBehaviour
                     break;
                 case 3:
                     SceneManager.LoadScene("FireEscapeLevel");
-                    break;
-                case 4:
-                    // SceneManager.LoadScene("Level02");
                     break;
             }
             

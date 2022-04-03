@@ -1,16 +1,7 @@
 Welcome to the Fire Class level.
 
-Objective: Learn different fire extinguishers can extinguish different types of flammable objects.
+There are some flammable objects on fire in the house. 
 
-Class A: Water fire extinguisher -> Wooden chair (wood)
-Class B: Carbon Dioxide fire extinguisher -> Oil can (petrol)
-Class C: Dry Powder fire extinguisher->  Aerosol can (butane/methane)
-Class D: Dry Powder fire extinguisher -> Battery (Lithium/Potassium)
-Class E: Carbon Dioxide fire extinguisher -> Fridge (Electrical Appliance)
+Your task will be to put out the fire on the flammable objects using the correct fire extinguisher.
 
-
-During the game level, if the player puts out the fire with the correct fire extinguisher, the fire will disappear, correct answer effect will be played and green tick will display above flammable object.
-
-If the player puts out the fire with the wrong fire extinguisher, the fire will remain, wrong answer sound effect will be played and red cross will display above flammable object.
-
-Player can quit level as and when he/she wants by taking the exit door that is outlined in yellow.
+Once all the fire have being put out, the exit door back to the portal will turned from red to green and you have completed the level successfully.
