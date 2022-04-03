@@ -36,16 +36,27 @@ public class Fire : MonoBehaviour
             //audioSource.Play();
             audioSource.PlayOneShot(fireBurning, PlayerPrefs.GetFloat("SoundVolume"));
         }
+        if (wrongCross && correctTick)
+        {
+            wrongCross = Instantiate(wrongCross);
+            wrongCross.SetActive(false);
+            correctTick = Instantiate(correctTick);
+            correctTick.SetActive(false);
+        }
     }
 
     public void Extinguish(bool shouldExtinguish)
     {
+        SetUiPosition();
         if (shouldExtinguish) 
         {
             ps.Stop();
 
-            wrongCross.SetActive(false);
-            correctTick.SetActive(true);
+            if (wrongCross && correctTick) 
+            {
+                wrongCross.SetActive(false);
+                correctTick.SetActive(true);
+            }
             if (audioSource)
             {
                 audioSource.Stop();
@@ -54,7 +65,10 @@ public class Fire : MonoBehaviour
         }
         else 
         {
-            wrongCross.SetActive(true);
+            if (wrongCross)
+            {
+                wrongCross.SetActive(true);
+            }
             if (audioSource)
             {
                 audioSource.PlayOneShot(wrongFireExtinguisher, PlayerPrefs.GetFloat("SoundVolume"));
@@ -73,6 +87,19 @@ public class Fire : MonoBehaviour
         if (flammableObj)
         {
             flammableObj.LightFire();
+        }
+    }
+
+    private void SetUiPosition()
+    {
+        if (wrongCross && correctTick)
+        {
+            Debug.Log("wrong pos" + wrongCross.transform.position);
+            Debug.Log("corr pos" + correctTick.transform.position);
+            Debug.Log(gameObject);
+            Debug.Log(gameObject.transform.position);
+            correctTick.transform.position = gameObject.transform.position + Vector3.up;
+            wrongCross.transform.position = correctTick.transform.position;
         }
     }
 

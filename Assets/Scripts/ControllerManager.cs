@@ -89,14 +89,16 @@ public class ControllerManager : MonoBehaviour
         if (shooter)
         {
             // objectInHand is dependent on grabber interaction
-            if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.ShootExtinguisher(objectInHand);
-            }
+            if (objectInHand) {
+                if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
+                {
+                    shooter.ShootExtinguisher(objectInHand);
+                }
 
-            if (shootAction.GetStateUp(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.Stop(objectInHand);
+                if (shootAction.GetStateUp(handType) && shooter.isExtinguisher(objectInHand))
+                {
+                    shooter.Stop(objectInHand);
+                }
             }
         }
 

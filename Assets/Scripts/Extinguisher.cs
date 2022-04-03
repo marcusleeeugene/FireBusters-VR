@@ -17,7 +17,7 @@ public class Extinguisher : MonoBehaviour
 
     void Start()
     {
-        fumes.GetComponent<Extinguisher>().type = type;
+        fumes.GetComponent<ExtinguisherParticles>().type = type;
     }
 
     public Type GetExtType()
