@@ -151,11 +151,20 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/grab"
+                     "output" : "/actions/default/in/shoot"
                   }
                },
                "mode" : "button",
                "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/grab"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
             }
          ]
       },

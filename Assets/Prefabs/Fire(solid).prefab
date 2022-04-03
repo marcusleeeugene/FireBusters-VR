@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3081868408549370407}
   - component: {fileID: 7049004939775777760}
   - component: {fileID: 5993225073045355369}
-  - component: {fileID: -5021931155412321449}
   - component: {fileID: -8647238063331734583}
   - component: {fileID: -4100071893904719786}
+  - component: {fileID: 7250291368149967208}
   m_Layer: 0
   m_Name: Fire(solid)
   m_TagString: Fire
@@ -4880,19 +4880,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &-5021931155412321449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6083687759709852438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02f094874a0c940489d86d46e41c8366, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
 --- !u!65 &-8647238063331734583
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5002,6 +4989,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7250291368149967208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083687759709852438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f094874a0c940489d86d46e41c8366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  fireBurning: {fileID: 0}
+  wrongFireExtinguisher: {fileID: 0}
+  correctFireExtinguisher: {fileID: 0}
+  correctTick: {fileID: 0}
+  wrongCross: {fileID: 0}
 --- !u!1 &7927765095634937097
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,14 +6,14 @@ using System.Linq;
 public class SpawnSwitch : Spawner
 {
     public int spawnLimit = 1;
-    
+
     private int spawnedNum = 0;
     private List<GameObject> objs = new List<GameObject>();
 
     public override void Spawn()
     {
         List<GameObject> toRemove = new List<GameObject>();
-        foreach (GameObject obj in objs) 
+        foreach (GameObject obj in objs)
         {
             if (obj.activeSelf == false)
             {
@@ -29,7 +29,7 @@ public class SpawnSwitch : Spawner
             if (spawnOnHand) {
                 instance = Instantiate(objToSpawn, transform.position + Vector3.up, objToSpawn.transform.rotation);
             } else if (placeToSpawn) {
-                instance = Instantiate(objToSpawn, placeToSpawn.position, placeToSpawn.rotation);
+                instance = Instantiate(objToSpawn, placeToSpawn.position, objToSpawn.transform.rotation);
             }
             if (instance)
             {

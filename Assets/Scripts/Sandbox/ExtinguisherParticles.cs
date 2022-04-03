@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaterParticles : MonoBehaviour
+public class ExtinguisherParticles : MonoBehaviour
 {
+    public Extinguisher.Type type;
     private ParticleSystem ps;
 
     // Start is called before the first frame update
@@ -12,12 +13,17 @@ public class WaterParticles : MonoBehaviour
         ps = GetComponent<ParticleSystem>();
     }
 
+    public Extinguisher.Type GetExtType()
+    {
+        return type;
+    }
+
     void OnParticleCollision(GameObject other)
     {
         Flammable flammableObj = other.GetComponent<Flammable>();
-        if (flammableObj && flammableObj.fireType==Fire.Type.Solid)
+        if (flammableObj)
         {
-            flammableObj.KillFire();
+            flammableObj.KillFire((int)flammableObj.fireType == (int)type);
         }
     }
 }

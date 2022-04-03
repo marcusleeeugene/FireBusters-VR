@@ -49,7 +49,14 @@ public class ControllerManager : MonoBehaviour
                 else if (grabber.IsCollidingObject())
                 {
                     Debug.Log("Touching: " + grabber.GetCollidingObject().name);
-                    objectInHand = grabber.GrabObject();
+                    if (grabber.IsExtinguisher()) 
+                    {
+                        objectInHand = grabber.GrabExtinguisher(controllerPose.transform.rotation);
+                    }
+                    else
+                    {
+                        objectInHand = grabber.GrabObject();
+                    }
                 }
             }
         }
@@ -81,14 +88,17 @@ public class ControllerManager : MonoBehaviour
 
         if (shooter)
         {
-            if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.ShootExtinguisher(objectInHand);
-            }
+            // objectInHand is dependent on grabber interaction
+            if (objectInHand) {
+                if (shootAction.GetState(handType) && shooter.isExtinguisher(objectInHand))
+                {
+                    shooter.ShootExtinguisher(objectInHand);
+                }
 
-            if (shootAction.GetStateUp(handType) && shooter.isExtinguisher(objectInHand))
-            {
-                shooter.Stop(objectInHand);
+                if (shootAction.GetStateUp(handType) && shooter.isExtinguisher(objectInHand))
+                {
+                    shooter.Stop(objectInHand);
+                }
             }
         }
 

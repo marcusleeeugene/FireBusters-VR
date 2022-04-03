@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1548495291961160962}
   - component: {fileID: 2594432021584428403}
   m_Layer: 0
-  m_Name: Water spray
+  m_Name: Water sprinkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,7 +43,7 @@ ParticleSystem:
   serializedVersion: 7
   lengthInSec: 10
   simulationSpeed: 1
-  stopAction: 0
+  stopAction: 1
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
