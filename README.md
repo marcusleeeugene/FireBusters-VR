@@ -2,7 +2,9 @@
 
 ![image](https://github.com/marcusleeeugene/FireBusters-VR/blob/main/FireBustersVR.gif)
 
-Video Demo Link: https://youtu.be/w8NYlh0UM6o
+Promotional Video: https://youtu.be/pvLvX5iLoJ8
+
+Video Walkthrough: https://youtu.be/w8NYlh0UM6o
 
 ## About the Game
 
