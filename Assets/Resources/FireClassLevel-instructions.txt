@@ -4,4 +4,4 @@ There are some flammable objects on fire in the house.
 
 Your task will be to put out the fire on the flammable objects using the correct fire extinguisher.
 
-Once all the fire have being put out, the exit door back to the portal will turned from red to green and you have completed the level successfully.
+Once all the fire have been put out, the exit door back to the portal will be turned from red to green and you have completed the level successfully.
