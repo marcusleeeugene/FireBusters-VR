@@ -9,10 +9,15 @@ public class Spawner : MonoBehaviour
     [Tooltip("Required if spawnOnHand is false.")]
     public Transform placeToSpawn;
 
+    public AudioSource spawnAudio;
+
     public virtual void Spawn()
     {
         if (spawnOnHand) {
             Instantiate(objToSpawn, transform.position + Vector3.up, objToSpawn.transform.rotation);
+            if (spawnAudio) {
+                spawnAudio.Play();
+            }
         } else if (placeToSpawn) {
             Instantiate(objToSpawn, placeToSpawn.position, placeToSpawn.rotation);
         }
