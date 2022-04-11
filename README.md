@@ -19,4 +19,4 @@ Our game consists of 3 levels as follows:
 
 3. Fire Escape Level: You have to identify the appropriate and relevant steps to take in a fire evacuation scenario to leave the building safely.
 
-![image](https://user-images.githubusercontent.com/19762656/161409527-60b87c87-cb4c-4cc8-851f-6ce64205bd8a.png)
+![image](https://raw.githubusercontent.com/marcusleeeugene/FireBusters-VR/main/firebusters%20poster-voting-qr.png)
