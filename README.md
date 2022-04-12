@@ -27,3 +27,5 @@ Our game consists of 3 levels as follows:
 3. Make sure HTC Vive is plugged in, calibrated and configured
 4. Edit > Clear All PlayerPrefs 
 5. Select "Start Point" scene and run
+
+(Alternatively you may run directly from the .exe file from this link: https://drive.google.com/file/d/1-25tuD4CBRVcTbqlF8XwR52w7sUcgZpo/view?usp=sharing however, running in Unity is highly recommended)
