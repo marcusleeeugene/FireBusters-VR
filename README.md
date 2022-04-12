@@ -28,4 +28,5 @@ Our game consists of 3 levels as follows:
 4. Edit > Clear All PlayerPrefs 
 5. Select "Start Point" scene and run
 
-(Alternatively you may run directly from the .exe file from this link: https://drive.google.com/file/d/1-25tuD4CBRVcTbqlF8XwR52w7sUcgZpo/view?usp=sharing however, running in Unity is highly recommended)
+(Alternatively you may run directly from the .exe file from the following link, although running in Unity is highly recommended)
+https://drive.google.com/file/d/1-25tuD4CBRVcTbqlF8XwR52w7sUcgZpo/view?usp=sharing 
