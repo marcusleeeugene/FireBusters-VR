@@ -53,5 +53,5 @@ https://drive.google.com/file/d/1-25tuD4CBRVcTbqlF8XwR52w7sUcgZpo/view?usp=shari
 - https://free3d.com/3d-model/bucket-57664.html (Bucket)
 - https://free3d.com/3d-model/nine-volt-battery-2425.html (Battery)
 - https://free3d.com/3d-model/cooking-oil-jerry-can-88575.html (Jerry can)
-
+- https://www.cadnav.com/3d-models/model-9511.html (Faucet)
 
