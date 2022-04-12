@@ -20,3 +20,10 @@ Our game consists of 3 levels as follows:
 3. Fire Escape Level: You have to identify the appropriate and relevant steps to take in a fire evacuation scenario to leave the building safely.
 
 ![image](https://raw.githubusercontent.com/marcusleeeugene/FireBusters-VR/main/firebusters%20poster-voting-qr.png)
+
+## Instructions to run
+1. Clone Project
+2. Open with Unity version 2020.2.1f1 (preferred)
+3. Make sure HTC Vive is plugged in, calibrated and configured
+4. Edit > Clear All PlayerPrefs 
+5. Select "Start Point" scene and run
