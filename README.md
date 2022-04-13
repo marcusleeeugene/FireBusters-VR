@@ -21,6 +21,13 @@ Our game consists of 3 levels as follows:
 
 ![image](https://raw.githubusercontent.com/marcusleeeugene/FireBusters-VR/main/firebusters%20poster-voting-qr-new.png)
 
+Done By:
+- Marcus Lee Eugene
+- Lim JunXue
+- Tay Kai Xiang
+- Ryan Tan Yu Xiang
+- Cheng WanYin
+
 ## Instructions to run
 1. Clone Project
 2. Open with Unity version 2020.2.1f1 (preferred)
